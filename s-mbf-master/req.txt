@@ -1,0 +1,6 @@
+requests
+bs4
+mechanize
+crayons
+click
+prompt_toolkit

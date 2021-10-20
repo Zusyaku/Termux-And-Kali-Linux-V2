@@ -1,0 +1,143 @@
+
+  ______ _                _______           _                   
+ / _____|_)  _           (_______)         | |              _   
+( (____  _ _| |_ _____    _   ___ _____  __| | ____ _____ _| |_ 
+ \____ \| (_   _) ___ |  | | (_  (____ |/ _  |/ _  | ___ (_   _)
+ _____) ) | | |_| ____|  | |___) / ___ ( (_| ( (_| | ____| | |_ 
+(______/|_|  \__)_____)   \_____/\_____|\____|\___ |_____)  \__)
+                                             (_____|v1.0 
+https://github.com/alpkeskin    
+
+SITE >hunter.io
+hunter.io
+├── 172.67.5.253
+│   ├── United States
+│   ├── Chicago
+│   └── America/Chicago
+├── Emails
+│   └── 
+├── Subdomains
+│   ├── storage.hunter.io
+│   ├── blog.hunter.io
+│   ├── api.hunter.io
+│   ├── extension-api.hunter.io
+│   ├── mail.hunter.io
+│   ├── velen.hunter.io
+│   ├── maintenance-domain.hunter.io
+│   ├── help.hunter.io
+│   ├── techlookup.hunter.io
+│   ├── mailtracker.hunter.io
+│   ├── resources-help-center.hunter.io
+│   ├── status.hunter.io
+│   ├── ga-optimize-content.hunter.io
+│   └── www.hunter.io
+├── CLOUDFLARE
+│   └── Cloudflare detected!
+└── Robot.txt
+    └── Robot.txt found!
+
+
+-------------------------------
+>DNS LOOKUP
+-------------------------------
+
++--------+-----------------------------------------------------------------------------------------------------------------+
+| Record |                                                      Value                                                      |
++--------+-----------------------------------------------------------------------------------------------------------------+
+|   NS   |                                             greg.ns.cloudflare.com.                                             |
+|   NS   |                                             gina.ns.cloudflare.com.                                             |
+|   A    |                                                   172.67.5.253                                                  |
+|   A    |                                                   104.22.10.67                                                  |
+|   A    |                                                   104.22.11.67                                                  |
+|   MX   |                                            5 alt2.aspmx.l.google.com.                                           |
+|   MX   |                                           10 alt3.aspmx.l.google.com.                                           |
+|   MX   |                                           10 alt4.aspmx.l.google.com.                                           |
+|   MX   |                                            5 alt1.aspmx.l.google.com.                                           |
+|   MX   |                                              1 aspmx.l.google.com.                                              |
+|  TXT   | "v=spf1 include:spf.mtasv.net include:_spf.google.com include:customeriomail.com include:servers.mcsv.net -all" |
+|  TXT   |              "stripe-verification=f59d4a2f3eadcb59d811080b7ab5ca0fd076c2a5b3b5b1a414bc6cf836b6dd51"             |
+|  TXT   |                     "google-site-verification=mdKcXT7H_uTJjz2X9z3WnG_e2SP5E4quOXMf9aqLok0 ?"                    |
+|  TXT   |           "ahrefs-site-verification_5e786e8e14c2fee926bf02be40364a6d329644b2e4956a1147b71847f9cd2210"           |
++--------+-----------------------------------------------------------------------------------------------------------------+
+
+-------------------------------
+>REVERSE IP LOOKUP
+-------------------------------
+
+ReverseIPLookup.txt saved!
+
+-------------------------------
+>HTTP HEADERS
+-------------------------------
+HTTP/1.1 200 OK
+Content-Type : text/html; charset=utf-8
+Server : cloudflare
+Set-Cookie : ######
+Cache-Control : max-age=0, private, must-revalidate
+Connection : keep-alive
+X-Content-Type-Options : nosniff
+X-Frame-Options : SAMEORIGIN
+X-Content-Type-Options : nosniff
+X-XSS-Protection : 1; mode=block
+Transfer-Encoding : chunked
+Content-Type : text/html; charset=utf-8
+Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+CF-Cache-Status : DYNAMIC
+cf-request-id : 063ad106a1000d88b290000001
+
+-------------------------------
+>Detecting CMS & Technologies...
+-------------------------------
+API Credits = 990
+
+No Found CMS
+
+-------------------------------
+>RELATED EMAILS
+-------------------------------
+janette@hunter.io
+samara@hunter.io
+bastien@hunter.io
+bernardo@hunter.io
+press@hunter.io
+security@hunter.io
+juliette@hunter.io
+julien@hunter.io
+contact@hunter.io
+affiliates@hunter.io
+
+-------------------------------
+>Scraping The Links...
+-------------------------------
+
+ScrapingTheLinks.txt saved!
+
+-------------------------------
+>Scanning Ports...
+-------------------------------
+Starting Nmap 7.70 ( https://nmap.org ) at 2020-11-05 16:23 UTC
+Nmap scan report for 172.67.5.253
+Host is up (0.0027s latency).
+
+PORT     STATE    SERVICE
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+80/tcp   open     http
+110/tcp  filtered pop3
+143/tcp  filtered imap
+443/tcp  open     https
+3389/tcp filtered ms-wbt-server
+
+Nmap done: 1 IP address (1 host up) scanned in 1.28 seconds
+
+
+-------------------------------
+>Finding Admin Panel...
+-------------------------------
+https://hunter.io/0admin/ 404
+https://hunter.io/0manager/ 404
+https://hunter.io/aadmin/ 404
+https://hunter.io/wp-login.php 404
+https://hunter.io/access.php 404
+https://hunter.io/access/ 404

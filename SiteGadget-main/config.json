@@ -1,0 +1,14 @@
+[
+  {
+    "Tree": "True",
+    "DNS Lookup": "True",
+    "HTTP Headers": "True",
+    "Reverse IP Lookup": "True",
+    "whatcms.org API": "6110e72db17a6bc434c8a0c8ee3f2ea9b042f79cbc03aeae464f6b746c221cd29a48c8",
+    "hunter.io API": "bbc9e64cbced6990aec1d66b149e0a59330f87d6",
+    "Scraping The Links": "True",
+    "Port Scan": "True",
+    "Find Admin Panel": "True",
+    "Find Shell": "True"
+  }
+]
