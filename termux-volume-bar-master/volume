@@ -1,0 +1,96 @@
+#!/bin/bash
+
+setvol(){
+    # Because termux-volume is very slow, we do it asynchronously to make the volume bar more responsive visually.
+    # Because to avoid race conditions as much as possible we kill the previous termux-volume call
+    if [ "$pid" != "0" ];then
+        kill $pid 2>/dev/null
+        wait $pid 2>/dev/null
+    fi
+    termux-volume $channel $1 &
+    pid=$!
+}
+getvol(){
+    if [ -z "$1" ];then
+        json=$(termux-volume)
+    else
+        json="$1"
+    fi
+    if [ -z "$json" ]; then
+        echo 0
+    fi
+    echo "$json" | jq ".[] | select(.stream==\"$channel\").volume"
+}
+channel=music
+if [ -n "$1" ];then
+    channel=$1;
+fi
+# Config
+color_border=37
+color_bar_low=32
+color_bar_high=31
+color_num=33
+# /Config
+config_path="$HOME/.config/termux-volume-bar/config"
+if [ -e "$config_path" ];then
+    source "$config_path"
+fi
+pid=0
+arrowup='\[A'
+arrowdown='\[B'
+arrowrt='\[C'
+arrowlt='\[D'
+stty -echo
+json=$(termux-volume)
+vol=$(getvol "$json")
+max=$(echo "$json" | jq ".[] | select(.stream==\"$channel\").max_volume")
+maxminusone=$((max-1))
+high_threshold=$((max/3*2))
+oldtime=0
+while true;do
+    bar="\e[0;30m\e[${color_border}m"
+    bar+="|"
+    for i in `seq 0 $maxminusone`;do
+        if [ $i -ge $vol ];then
+            bar+=" "
+        else
+            if [ $i -le $high_threshold ];then
+                bar+="\e[0;30m\e[${color_bar_low}m"
+            else
+                bar+="\e[0;30m\e[${color_bar_high}m"
+            fi
+            bar+="▅"
+        fi
+    done
+    bar+="\e[0;30m\e[${color_border}m"
+    bar+="|"
+    bar+="\e[0;30m\e[${color_num}m"
+    bar+=`printf "% 3d\n" $vol`
+    bar+="\e[0m"
+    echo -ne "$bar\r"
+    read -s -t 5 -n 3 key
+    if [ -n "$key" ];then
+        old=$vol
+        echo -n "$key"|grep -q "$arrowrt" && vol=$((vol+1))
+        echo -n "$key"|grep -q "$arrowlt" && vol=$((vol-1))
+        echo -n "$key"|grep -q "q" && exit 0
+        if [ "$vol" -gt $max ];then
+            vol=$max
+        fi
+        if [ "$vol" -lt 0 ];then
+            vol=0
+        fi
+        # Only do something if volume has changed ( a supported key has been pressed)
+        if [ "$vol" != "$old" ];then
+            oldtime=$(date +%s)
+            setvol $vol
+        fi
+        #Because killing the previous termux-volume in the asynchronous call can sometimes lead to race conditions, we set the volume again after a few seconds
+        if [ "$((oldtime+3))" -lt $(date +%s) ] && [ "$oldtime" != 0 ];then
+            oldtime=0
+            setvol $vol
+        fi
+    else
+        vol=$(getvol)
+    fi
+done
