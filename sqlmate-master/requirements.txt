@@ -1,0 +1,4 @@
+mechanize==0.2.5
+beautifulsoup4==4.4.1
+argparse==1.2.1
+requests
