@@ -1,0 +1,4 @@
+wget
+cryptography
+Fernet
+pyopenssl
