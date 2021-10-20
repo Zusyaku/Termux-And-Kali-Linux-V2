@@ -1,0 +1,9 @@
+TelephonyBruteCall V.1.0
+
+It is a tool made for Termux To Bruteforce Call by Niirmaal twaatii.
+
+Github: https://www.github.com/niirmaaltwaatii/telephonybrutecall
+
+Social Media : niirmaaltwaatii
+
+Youtube : Niirmaal twaatii TwN 87
