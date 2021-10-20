@@ -1,0 +1,4 @@
+argparse
+vulners
+colored
+prettytable
