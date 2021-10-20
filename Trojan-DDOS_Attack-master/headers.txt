@@ -1,0 +1,2 @@
+Accept: text/Trojan
+

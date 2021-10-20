@@ -1,0 +1,56 @@
+#!/bin/bash
+clear
+if [[ -s run ]];then
+rm run
+else
+echo -e "\e[4;31m SpeedX Productions !!! \e[0m"
+echo -e "\e[1;34m        Presents \e[0m"
+echo -e "\e[1;32m TweetBot \e[0m"
+echo " "
+echo -e "\e[4;33m Tool For Sending Mass Tweets With Anti-Detection System. \e[0m"
+echo " "
+echo "Press Enter To Continue..."
+read a
+echo "This App is Running Since "$date >run
+echo "TweetBot Was Created By SpeedX... Any Queries Mail ggspeedx29@gmail.com " >>run
+fi
+if [[ -s update.speedx ]];then
+echo " "
+echo -e "\e[1;32m All Requirements Found... \e[0m"
+else
+echo " "
+echo -e "\e[1;32m Please Wait While We Install Necessary Requirements... \e[0m"
+echo " "
+echo " "
+apt update
+apt upgrade
+apt install figlet toilet lynx
+echo " "
+echo -e "\e[1;32m Requirements Installed Successfully...  \e[0m"
+echo "This App Was Last Updated On "$date >update.speedx
+echo "SuperDorker Was Created By SpeedX... Any Queries Mail ggspeedx29@gmail.com " >>update.speedx
+echo "Press Enter To Continue.."
+read a1
+fi
+clear
+echo -e "\e[1;32m"
+figlet -f slant -c TweetBot
+echo -e "\e[1;34m Created By \e[0m"
+toilet -f mono12 -F gay SpeedX
+echo -e "\e[4;34m This Bot Was Created By SpeedX \e[0m"
+echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
+echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
+echo -e "\e[4;32m  Facebook Page: https://www.facebook.com/GyanaTech \e[0m"
+echo " "
+if [[ -s run ]];then
+echo -e "\e[1;33m This TweetBot is Still in Beta Mode\e[0m"
+echo -e "\e[1;32m Use it Carefully!!!"
+else
+echo -e "\e[1;33m Thanks For Using Twitter Bot !!\e[1;31m"
+figlet -f slant -c TweetBot
+echo "Created By SpeedX !!!!"
+toilet -f mono12 -F gay SpeedX
+echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
+echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
+echo -e "\e[4;32m  Facebook Page: https://www.facebook.com/GyanaTech \e[0m"
+fi
