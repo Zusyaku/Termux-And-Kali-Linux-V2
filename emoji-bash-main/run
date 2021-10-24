@@ -1,0 +1,66 @@
+#Open source code
+k="\033[33;1m"
+ m="\033[31;1m"
+  pu="\033[39;1m"
+   p="\033[36;1m"
+    b="\033[34;1m"
+     h="\033[32;1m"
+      c="\033[35;1m"
+       JAM=`date +%H`
+        MENIT=`date +%M`
+         DETIK=`date +%S`
+         TANGGAL=`date +%d`
+        BULAN=`date +%m`
+      TAHUN=`date +%Y`
+mp="\033[41;1;39m"
+o="\033[0m"
+
+clear
+echo -e "\033[31;1m"
+toilet -f wideterm -F border '     Install Bahan²      '
+echo -e "\033[39;1m"
+pkg install nano
+clear
+echo -e "\033[33;1m"
+toilet -f wideterm -F border '     Install Bahan²      '
+echo -e "\033[39;1m"
+pkg install bash
+clear
+echo -e "\033[32;1m"
+toilet -f wideterm -F border '     Install Bahan²      '
+echo -e "\033[39;1m"
+pkg install figlet
+clear
+echo -e "\033[31;1m"
+toilet -f wideterm -F border '     Install Bahan²      '
+echo -e "\033[39;1m"
+pkg install toilet
+clear
+echo -e "\033[33;1m"
+toilet -f wideterm -F border '     Install Bahan²      '
+echo -e "\033[39;1m"
+pip install emojify
+clear
+echo -e "                           $h  ✓$p  install selesai"
+echo
+sleep 3
+clear
+#Tampilan
+echo -e "\033[32;1m"
+toilet -f wideterm -F border '     ENC EMOJIFY      '
+echo -e $pu"<><><><>><><><><><><><><><><><><><><><><><><><>"
+echo -e $m" *$p Author $m :$h Aldi Bachtiar Rifai"
+echo -e $m" *$p YouTube$m :$k MR.1557 / B0C4H"
+echo -e $pu"<><><><>><><><><><><><><><><><><><><><><><><><>"
+echo -e $m" ~$p Time$m :$h $JAM$m :$h $MENIT$m :$h $DETIK "
+echo
+read -p $'\033[31;1m +\033[36;1m File    \033[31;1m : \033[32;1m' fl
+echo
+read -p $'\033[31;1m +\033[36;1m Output  \033[31;1m : \033[32;1m' ou
+echo
+echo -e $m" !$p Sedang di Peroses..."
+sleep 3
+echo -e "$h"
+emojify -i $fl -o $ou
+echo
+echo -e $h" ✓$p File saved to$k |$h $ou"
