@@ -1,0 +1,162 @@
+#!/usr/bin/env bash
+
+clear
+
+m="\e[0;31m" # merah
+k="\e[0;33m" # kuning
+h="\e[0;32m" # hijau
+b="\e[0;34m" # biru
+lm="\e[1;31m" # merah terang
+lk="\e[1;33m" # kuning terang
+lh="\e[1;32m" # hijau terang
+lb="\e[1;34m" # langit biru
+n="\e[0m" # netral
+pt="\e[1;37m" # putih tebal
+
+echo -e "YuChan" | figlet
+echo -e "${pt}Youtube Video Audio Downloader${n}"
+echo -e "${lb}LoliC0d3 - Tegalsec ${n} "
+folder="output"
+echo -e " ${lh}
+1.Single Link
+2.Multi Link
+3.Playlist
+4.Multi Playlist
+5.Install Requirement
+99.Exit
+${n} "
+read -p "senpai@tegalsec:~# " select
+if [[ $select == 1 ]]; then
+  echo "
+  1.Audio {mp3}
+  2.Video {Mp4}
+  "
+  read -p "senpai@tegalsec:~# " select
+  if [[ $select == 1 ]]; then
+    read -p "Input Url: " input
+    echo "Looking for links in \"$input\""
+    echo "Saving audio in \"$folder\""
+    echo ""
+
+    output="-o $folder/%(title)s.%(ext)s"
+        echo "\n\nDownloading \"$input\""
+      youtube-dl -f 'bestaudio' --ignore-errors --continue --extract-audio --audio-format mp3 $output $input
+      echo "\n\n"
+    elif [[ $select == 2 ]]; then
+      read -p "Input Url: " input
+      echo "Looking for links in \"$input\""
+      echo "Saving video in \"$folder\""
+      echo ""
+
+      output="-o $folder/%(title)s.%(ext)s"
+
+          echo "\n\nDownloading \"$input\""
+        youtube-dl --ignore-errors --continue -f mp4 $output $input
+        echo "\n\n"
+  fi
+
+elif [[ $select == 2 ]]; then
+  echo "
+1.Audio {Mp3}
+2.Video {Mp4}
+  "
+  read -p "senpai@tegalsec:~#" select
+  if [[ $select == 1 ]]; then
+    read -p "Input List: " input
+    echo ""
+    echo "Looking for links in \"$input\""
+    echo "Saving audio in \"$folder\""
+    echo ""
+
+    output="-o $folder/%(title)s.%(ext)s"
+    while IFS= read -r line
+    do
+        echo "\n\nDownloading \"$line\""
+      youtube-dl -f 'bestaudio' --ignore-errors --continue --extract-audio --audio-format mp3 $output $line
+      echo "\n\n"
+    done < $input
+  elif [[ $select == 2 ]]; then
+    read -p "Input List: " input
+    echo ""
+    echo "Looking for links in \"$input\""
+    echo "Saving video in \"$folder\""
+    echo ""
+
+    output="-o $folder/%(title)s.%(ext)s"
+
+    while IFS= read -r line
+    do
+        echo "\n\nDownloading \"$line\""
+      youtube-dl --ignore-errors --continue -f mp4 $output $line
+      echo "\n\n"
+    done < $input
+  fi
+elif [[ $select == 3 ]]; then
+  echo "
+  1.Audio {mp3}
+  2.Video {Mp4}
+  "
+  read -p "senpai@tegalsec:~# " select
+  if [[ $select == 1 ]]; then
+    read -p "Input url: " input
+    echo "Looking for links in \"$input\""
+    echo "Saving audio in \"$folder\""
+    echo ""
+
+    output="-o $folder/%(title)s.%(ext)s"
+        echo "\n\nDownloading \"$input\""
+      youtube-dl -f 'bestaudio' --ignore-errors --continue --extract-audio --audio-format mp3 --yes-playlist $output $input
+      echo "\n\n"
+    elif [[ $select == 2 ]]; then
+      read -p "Input Url: " input
+      echo "Looking for links in \"$input\""
+      echo "Saving video in \"$folder\""
+      echo ""
+
+      output="-o $folder/%(title)s.%(ext)s"
+          echo "\n\nDownloading \"$input\""
+        youtube-dl --ignore-errors --continue -f mp4 --yes-playlist $output $input
+        echo "\n\n"
+  fi
+elif [[ $select == 4 ]]; then
+  echo "
+1.Audio {Mp3}
+2.Video {Mp4}
+  "
+  read -p "senpai@tegalsec:~#" select
+  if [[ $select == 1 ]]; then
+    read -p "Input List: " input
+    echo ""
+    echo "Looking for links in \"$input\""
+    echo "Saving audio in \"$folder\""
+    echo ""
+
+    output="-o $folder/%(title)s.%(ext)s"
+    while IFS= read -r line
+    do
+        echo "\n\nDownloading \"$line\""
+      youtube-dl -f 'bestaudio' --ignore-errors --continue --extract-audio --audio-format mp3 --yes-playlist $output $line
+      echo "\n\n"
+    done < $input
+  elif [[ $select == 2 ]]; then
+    read -p "Input List: " input
+    echo ""
+    echo "Looking for links in \"$input\""
+    echo "Saving video in \"$folder\""
+    echo ""
+
+    output="-o $folder/%(title)s.%(ext)s"
+    while IFS= read -r line
+    do
+        echo "\n\nDownloading \"$line\""
+      youtube-dl --ignore-errors --continue -f mp4 --yes-playlist $output $line
+      echo "\n\n"
+    done < $input
+  fi
+elif [[ $select == 5 ]]; then
+    sudo apt install youtube-dl
+elif [[ $select == 99 ]]; then
+  echo "oke"
+else
+  echo "Your Brain Error!"
+fi
