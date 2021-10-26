@@ -1,0 +1,128 @@
+#!/bin/sh
+#install modul lolcat,toilet
+m="\e[0;31m" # merah
+k="\e[0;33m" # kuning
+h="\e[0;32m" # hijau
+b="\e[0;34m" # biru
+lm="\e[1;31m" # merah terang
+lk="\e[1;33m" # kuning terang
+lh="\e[1;32m" # hijau terang
+lb="\e[1;34m" # langit biru
+n="\e[0m" # netral
+w="\e[1;37m" # putih tebal
+sleep 0.5
+clear
+sleep 0.5
+toilet -f big Akuma  | lolcat
+sleep 0.5
+echo "LoliC0d3 - Tegal1337" | lolcat
+sleep 0.5
+echo "
+1.Remove Http/Https
+2.Domain To Ip
+3.Ip To Domain {Bing}
+4.Dorking {Bing}
+5.Extrak Domain
+6.Remove Duplicate
+7.Add Https
+99.Exit
+" | lolcat
+sleep 0.5
+read -p "senpai@tegalsec:~# " select
+if [[ $select == 1 ]]; then
+  ls
+  read -p "List: " list
+  cat $list | awk -F[/:] '{print $4}' >> Remove_Https.txt
+elif [[ $select == 2 ]]; then
+  ls
+  echo -e "${m}note: dont use http/https${n}"
+  read -p "List: " list
+  while  IFS= read -r list; do
+    resolveip -s "$list" <&- &
+    IFS= read -r list || break
+    resolveip -s "$list" <&- &
+  done < $list |  sed 's/[^0-9.]*//g' | tee -a tmp.txt
+   sort -u tmp.txt >> ips.txt 
+   rm tmp.txt
+elif [[ $select == 3 ]]; then
+  ls
+  Reverse()
+  {
+    for (( i = 0; i <= $page; i++ )); do
+  	local curl=`curl "http://www.bing.com/search?q=IP%3A+${1}&first=${i}1" -s`
+  	local gets=$(echo $curl | grep -Po "(?<=<h2><a href=\")[^\"]*")
+  	for url in $gets
+  	do
+  		echo $url | grep "bing" > /dev/null
+  		if [[ $? -eq 0 ]]; then
+  			echo ""
+  		else
+  			loli $url ${1} ${3}
+  		fi
+  	done
+    done
+  }
+  loli()
+  {
+
+  	echo -e "${h}[${i}/${2}]${n} ${w}${1}${n} ${m}[Reverse]${n} " <&- &
+    sleep 0.1
+    echo ${1} >> Reverse.txt
+  }
+  echo -n "List :"
+  read list
+  echo -n "Page :"
+  read page
+    while IFS= read -r list || [[ -n "$list" ]]; do
+        Reverse "$list" ${page}
+      done < "$list"
+elif [[ $select == 4 ]]; then
+  ls
+      Reverse()
+      {
+        for (( i = 0; i < $page; i++ )); do
+      	local curl=`curl "http://www.bing.com/search?q=${1}&first=${i}1" -s`
+      	local gets=$(echo $curl | grep -Po "(?<=<h2><a href=\")[^\"]*")
+      	for url in $gets
+      	do
+      		echo $url | grep "bing" > /dev/null
+      		if [[ $? -eq 0 ]]; then
+      			echo ""
+      		else
+      			loli $url ${1} ${3}
+      		fi
+      	done
+        done
+      }
+      loli()
+      {
+
+      	echo -e "${h}[${i}/${2}]${n} ${w}${1}${n} ${m}[Dorking]${n} " <&- &
+        sleep 0.1
+        echo ${1} >> Dorking.txt
+      }
+
+      echo -n "List :"
+      read list
+      echo -n "Page :"
+      read page
+        while IFS= read -r list || [[ -n "$list" ]]; do
+            Reverse "$list" ${page}
+          done < "$list"
+elif [[ $select == 5 ]]; then
+  ls
+      read -p "list: " list
+      cat $list | awk -F[/:] '{print $4}' | tee -a Extrak_Domain.txt
+elif [[ $select == 6 ]]; then
+  ls
+      read -p "list: " list
+      sort -u $list >> Remove_Duplicate.txt
+elif [[ $select == 7 ]]; then
+  ls
+    read -p "list: " list
+    sed -i 's_._https://&_' $list
+elif [[ $select == 99 ]]; then
+    echo "Oke"
+else
+  echo "Your Brain Error!"
+fi
