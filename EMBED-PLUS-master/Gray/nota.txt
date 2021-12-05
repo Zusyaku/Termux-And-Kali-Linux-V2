@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+# Aca es donde se almacenan tus apks inyectadas...
+# cualquier problema contacta https://t.me/CesarGray	

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+
+# aca es donde se almacenan los datos anteriores
