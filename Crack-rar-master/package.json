@@ -1,0 +1,12 @@
+{
+  "name": "Crack-rar",
+  "version": "1.0.0",
+  "description": "Crack-rar is a python3 script which is created for bruteforcing or cracking of rar password protected files in your termina with a top speed engine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "AnonyminHack5",
+  "license": "ISC"
+}

@@ -1,0 +1,2 @@
+rarfile==4.0
+colorama==0.0.4
