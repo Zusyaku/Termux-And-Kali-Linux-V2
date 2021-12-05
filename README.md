@@ -1,6 +1,18 @@
-# Termux And Kali Linux Tools V2 
+# INSTALL
 
-Kalo Mau Fork Silahkan Tapi Izin Dulu 
-Soalnya Ini Buat Sendiri Dan Harus Mendownload Banyak Sumber Dan Menghabiskan Banyak Waktu Dan Internet
+***pkg update && pkg upgrade***
 
-** Gunakan Tools Ini Dengan Bijak **
+
+
+
+
+
+
+
+
+
+
+
+
+
+

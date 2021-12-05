@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>jlord&#39;s weblog</title>
+  <subtitle>This is a weblog I made on Glitch.</subtitle>
+  <link href="https://veil-look.glitch.me/feed.xml" rel="self"/>
+  <link href="https://veil-look.glitch.me"/>
+  <updated>2019-08-21T01:00:00+01:00</updated>
+  <id>https://veil-look.glitch.me</id>
+  <author>
+    <name>Jessica Lord</name>
+    <email>jess.lord@gmail.com</email>
+  </author>
+  
+  <entry>
+    <title>2021 Books</title>
+    <link href="https://veil-look.glitch.me/veil-look/posts/2021-books/"/>
+    <updated>2021-05-05T01:00:00+01:00</updated>
+    <id>https://veil-look.glitch.me/veil-look/posts/2021-books/</id>
+    <content type="html">&lt;p&gt;Books I read in 2021. See &lt;a href=&quot;https://veil-look.glitch.me/veil-look/posts/2019-books&quot;&gt;here for 2019&lt;/a&gt;, &lt;a href=&quot;https://veil-look.glitch.me/veil-look/posts/2020-books&quot;&gt;here for 2020&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;book-shelf&quot;&gt;2021 Shelf
+&lt;div class=&quot;book-shelf-container&quot;&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/46140227-word-perfect&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599061218l/46140227._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/609478.A_Month_in_the_Country&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1501755416l/609478._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/34234631-mr-salary&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550270997l/34234631._SX318_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/56665713-beautiful-world-where-are-you&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632135539l/56665713.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/52454796-mudlark&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1561997594l/52454796._SX318_SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/55970539-a-ghost-in-the-throat&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1605927384l/55970539._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/9618721-attached&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328362029l/9618721.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/58200176-the-road-to-the-city&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622369280l/58200176._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/38058832-the-memory-police&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550886591l/38058832._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/45414967-the-dry-heart&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556617879l/45414967._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/28672083-pond&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453451513l/28672083._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/54127223-anxiety&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592346447l/54127223._SX318_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://veil-look.glitch.me/veil-look/posts/2021-books/goodreads.com/book/show/53817428-hamnet&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1615488119l/53817428._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/53732532-a-place-for-everything&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1591005961l/53732532._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/49771934-say-nothing&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590530965l/49771934._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/40033006-the-7-deaths-of-evelyn-hardcastle&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525400069l/40033006._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/50395093-writers-lovers&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1578752207l/50395093._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/56617682-stay-or-leave&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610307714l/56617682._SX318_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/54113215-let-me-tell-you-what-i-mean&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596430088l/53308149.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;book-shelf&quot;&gt;2021 List
+&lt;div class=&quot;book-list-container&quot;&gt;
+  &lt;table&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;No.&lt;/th&gt;&lt;th&gt;Title&lt;/th&gt;&lt;th&gt;Author&lt;/th&gt;&lt;th&gt;Read&lt;/th&gt;&lt;th&gt;Category&lt;/th&gt;&lt;th&gt;Pages&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/46140227-word-perfect&quot;&gt;Word Perfect&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dent, Susie&lt;/td&gt;&lt;td&gt;Reading&lt;/td&gt;&lt;td&gt;Nonfiction &lt;span class=&quot;meta-text&quot;&gt;Language&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;416&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/609478.A_Month_in_the_Country&quot;&gt;A Month in the Country&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Carr, J.L.&lt;/td&gt;&lt;td&gt;10/09/2021&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/34234631-mr-salary&quot;&gt;Mr Salary&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rooney, Sally&lt;/td&gt;&lt;td&gt;10/09/2021&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;Short Story&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;33&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/56665713-beautiful-world-where-are-you&quot;&gt;Beautiful World, Where Are You&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rooney, Sally&lt;/td&gt;&lt;td&gt;09/15/2021&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;304&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/52454796-mudlark&quot;&gt;Mudlark&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Maiklem, Lara&lt;/td&gt;&lt;td&gt;08/13/2021&lt;/td&gt;&lt;td&gt;Nonfiction &lt;span class=&quot;meta-text&quot;&gt;History&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;329&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/55970539-a-ghost-in-the-throat&quot;&gt;A Ghost in the Throat&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ní Ghríofa, Doireann&lt;/td&gt;&lt;td&gt;08/01/2021&lt;/td&gt;&lt;td&gt;Nonfiction &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;228&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/9618721-attached&quot;&gt;Attached&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Levine, Amir; Heller, Rachel S.F.&lt;/td&gt;&lt;td&gt;07/08/2021&lt;/td&gt;&lt;td&gt;Nonfiction &lt;span class=&quot;meta-text&quot;&gt;Psychology&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;304&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/58200176-the-road-to-the-city&quot;&gt;The Road to the City&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ginzburg, Natalia&lt;/td&gt;&lt;td&gt;06/28/2021&lt;/td&gt;&lt;td&gt;Fcition &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;99&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/38058832-the-memory-police&quot;&gt;The Memory Police&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ogawa, Yōko&lt;/td&gt;&lt;td&gt;06/24/2021&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;Science Fiction&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;289&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/45414967-the-dry-heart&quot;&gt;The Dry Heart&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ginzburg, Natalia&lt;/td&gt;&lt;td&gt;06/22/2021&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;96&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/28672083-pond&quot;&gt;Pond&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bennet, Claire-Louise&lt;/td&gt;&lt;td&gt;06/16/2021&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;Short Stories&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;205&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/54127223-anxiety&quot;&gt;Anxiety&lt;/a&gt;&lt;/td&gt;&lt;td&gt;The School of Life&lt;/td&gt;&lt;td&gt;06/10/2021&lt;/td&gt;&lt;td&gt;Nonfiction &lt;span class=&quot;meta-text&quot;&gt;Psychology&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;111&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://veil-look.glitch.me/veil-look/posts/2021-books/goodreads.com/book/show/53817428-hamnet&quot;&gt;Hamnet&lt;/a&gt;&lt;/td&gt;&lt;td&gt;O&#39;Farrell, Maggie&lt;/td&gt;&lt;td&gt;06/09/2021&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;Historical&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;372&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/53732532-a-place-for-everything&quot;&gt;A Place for Everything&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Flanders, Judith&lt;/td&gt;&lt;td&gt;06/06/2021&lt;/td&gt;&lt;td&gt;Nonfiction &lt;span class=&quot;meta-text&quot;&gt;History&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;315&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/49771934-say-nothing&quot;&gt;Say Nothing&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Keefe, Patrick Radden&lt;/td&gt;&lt;td&gt;05/05/2019&lt;/td&gt;&lt;td&gt;Nonfiction &lt;span class=&quot;meta-text&quot;&gt;History&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;464&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/40033006-the-7-deaths-of-evelyn-hardcastle&quot;&gt;The 7½ Deaths of Evelyn Hardcastle&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Turton, Stuart&lt;/td&gt;&lt;td&gt;04/11/2021&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;482&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/50395093-writers-lovers&quot;&gt;Writers &amp; Lovers&lt;/a&gt;&lt;/td&gt;&lt;td&gt;King, Lily&lt;/td&gt;&lt;td&gt;03/15/2021&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;320&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/56617682-stay-or-leave&quot;&gt;Stay or Leave&lt;/a&gt;&lt;/td&gt;&lt;td&gt;The School of Life&lt;/td&gt;&lt;td&gt;02/28/2021&lt;/td&gt;&lt;td&gt;Nonfiction &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;160&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/54113215-let-me-tell-you-what-i-mean&quot;&gt;Let Me Tell You What I Mean&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Didion, Joan&lt;/td&gt;&lt;td&gt;2/7/2021&lt;/td&gt;&lt;td&gt;Nonfiction &lt;span class=&quot;meta-text&quot;&gt;Essay&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;176&lt;/td&gt;
+      &lt;/tr&gt;&lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;how-to-books&quot;&gt;How this Page is Made&lt;/h2&gt;
+&lt;p&gt;I use &lt;a href=&quot;https://www.goodreads.com/user/show/768192-jlord&quot; target=&quot;_blank&quot;&gt;Goodreads&lt;/a&gt; to keep track of books I&#39;ve read but their API is not stellar and they can&#39;t provide links to cover images which is a must-have for a shelf view. Since I don&#39;t read at breakneck speeds I just made a &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1U6lCkkT_kyY_uUyBIqv-cArdF0vUyXFTMkPDPGNPYcE/edit?usp=sharing&quot; target=&quot;_blank&quot;&gt;spreadsheet&lt;/a&gt; myself with information from my Goodreads data and links to cover art.&lt;/p&gt;
+&lt;p&gt;That spreadsheet is turned into JSON with my &lt;a href=&quot;https://spreadsheet.glitch.me/&quot; target=&quot;_blank&quot;&gt;tool&lt;/a&gt; that does the spreadsheet-to-JSON conversion for you. This site is built with &lt;a href=&quot;https://www.11ty.dev/&quot; target=&quot;_blank&quot;&gt;Eleventy&lt;/a&gt; so I created a template in the HTML that uses that JSON data. You can go directly the template and &lt;a href=&quot;https://glitch.com/edit/#!/veil-look?path=src/_includes/posts/2020-books.md&quot; target=&quot;_blank&quot;&gt;see the code on Glitch&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Here are the steps to updating this page after finishing a book:&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Add a row to &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1U6lCkkT_kyY_uUyBIqv-cArdF0vUyXFTMkPDPGNPYcE/edit?usp=sharing&quot; target=&quot;_blank&quot;&gt;my spreadsheet&lt;/a&gt; for the finished book.&lt;/li&gt;
+  &lt;li&gt;Generate JSON for the updated spreadsheet with &lt;code&gt;https://spreadsheet.glitch.me/?key=SPREADSHEETKEYHERE&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Copy and paste the updated JSON into the file &lt;code&gt;books.json&lt;/code&gt;, &lt;a href=&quot;https://glitch.com/edit/#!/veil-look?path=src/_data/2020Books.json&quot; target=&quot;_blank&quot;&gt;see the file in Glitch&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Use Git to commit the changes and push them to Glitch, or do it directly in Glitch with automatic deploys.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There&#39;s a duplicate copy of &lt;a href=&quot;https://github.com/jlord/veil-look&quot; target=&quot;_blank&quot;&gt;this site&#39;s code on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;/h3&gt;&lt;/h3&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>2020 Books</title>
+    <link href="https://veil-look.glitch.me/veil-look/posts/2020-books/"/>
+    <updated>2021-01-01T00:00:00+00:00</updated>
+    <id>https://veil-look.glitch.me/veil-look/posts/2020-books/</id>
+    <content type="html">&lt;p&gt;Books I read in 2020. See &lt;a href=&quot;https://veil-look.glitch.me/veil-look/posts/2019-books&quot;&gt;here for 2019&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;book-shelf&quot;&gt;2020 Shelf
+&lt;div class=&quot;book-shelf-container&quot;&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/53710540-the-woman-who-stole-vermeer&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590955325l/53710540._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/43264830-the-school-of-life&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568273715l/43264830._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/54313380-intimations&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595815105l/54313380.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/54043450-mrs-dalloway&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592197865l/54043450._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/24900884-a-history-of-london-in-100-places&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423578947l/24900884.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/25233777-hampstead-heath-from-the-thomas-barratt-collection&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427520356l/25233777.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/37506228-weather&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566942482l/37506228.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/40265832-how-to-be-an-antiracist&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560163756l/40265832.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/31299608-fl-neuse&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473644163l/23984074._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/43923951-such-a-fun-age?from_search=true&amp;from_srp=true&amp;qid=ua1jOrbJE3&amp;rank=1&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581875205l/43923951._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/51187948-the-splendid-and-the-vile&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567638164l/51187948._SX318_SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/35959740-circe?ac=1&amp;from_search=true&amp;qid=Oup0LTEliA&amp;rank=1&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565909496l/35959740._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/49960031-wow-no-thank-you&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566239899l/49960031.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/12391521-the-psychopath-test&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364166270l/12391521.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/52662139-square-haunting&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577251087l/52662139._SX318_SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/13035190-where-i-was-from&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328324383l/13035190.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/12073240-the-remains-of-the-day&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311092844l/12073240.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/38824786-after-henry&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519765271l/38824786._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/36315211-slouching-towards-bethlehem&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1506548069l/36315211._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/645629.The_Anglo_Saxon_Age&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411938787l/645629.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/35075917-the-white-album&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1503500537l/35075917._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/33396064-south-and-west&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481867502l/33396064._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/12567848-the-story-of-english-in-100-words&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348003011l/12567848.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/2784.Ways_of_Seeing&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464018308l/2784._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/34445200-walking&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490975863l/34445200._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/29358559-upstream?ac=1&amp;from_search=true&amp;qid=JPmrki5V4d&amp;rank=1&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1460911565l/29358559.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/14935.Sense_and_Sensibility&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397245675l/14935._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/42973186-how-to-do-nothing&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543414494l/42973186._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/218042.All_About_Love&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520297939l/218042.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/35820384-dictionary-stories?from_search=true&amp;qid=GNTMTClY1Q&amp;rank=2&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1522097990l/35820384._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/39024833-jane-austen-speaks-norwegian&quot;&gt;
+      &lt;img src=&quot;https://brill.com/cover/covers/9789004337169.jpg?width=300&quot;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;book-shelf&quot;&gt;2020 List
+&lt;div class=&quot;book-list-container&quot;&gt;
+  &lt;table&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;No.&lt;/th&gt;&lt;th&gt;Title&lt;/th&gt;&lt;th&gt;Author&lt;/th&gt;&lt;th&gt;Read&lt;/th&gt;&lt;th&gt;Category&lt;/th&gt;&lt;th&gt;Pages&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/53710540-the-woman-who-stole-vermeer&quot;&gt;The Woman Who Stole Vermeer&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Amore, Anthony M.&lt;/td&gt;&lt;td&gt;12/28/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;True Crime&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;265&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/43264830-the-school-of-life&quot;&gt;The School of Life&lt;/a&gt;&lt;/td&gt;&lt;td&gt;de Botton, Alaian &lt;/td&gt;&lt;td&gt;12/4/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Philosophy&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;310&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/54313380-intimations&quot;&gt;Intimations&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Smith, Zadie&lt;/td&gt;&lt;td&gt;10/30/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Essays&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;112&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/54043450-mrs-dalloway&quot;&gt;Mrs. Dalloway&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Woolf, Virgina &lt;/td&gt;&lt;td&gt;10/8/2020&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;182&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/24900884-a-history-of-london-in-100-places&quot;&gt;A History of London in 100 Places&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Long, David&lt;/td&gt;&lt;td&gt;9/24/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;224&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/25233777-hampstead-heath-from-the-thomas-barratt-collection&quot;&gt;Hampstead Heath&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hammerson, Michael&lt;/td&gt;&lt;td&gt;9/20/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;150&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/37506228-weather&quot;&gt;Weather&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Offill, Jenny&lt;/td&gt;&lt;td&gt;9/26/2020&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;207&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/40265832-how-to-be-an-antiracist&quot;&gt;How to Be an Antiracist &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kendi, Ibram&lt;/td&gt;&lt;td&gt;9/12/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;305&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/31299608-fl-neuse&quot;&gt;Flâneuse&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Elkin, Lauren&lt;/td&gt;&lt;td&gt;8/25/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;History&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;338&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/43923951-such-a-fun-age?from_search=true&amp;from_srp=true&amp;qid=ua1jOrbJE3&amp;rank=1&quot;&gt;Such a Fun Age&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Reid, Kiley&lt;/td&gt;&lt;td&gt;8/2/2020&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;307&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/51187948-the-splendid-and-the-vile&quot;&gt;The Splended and the Vile&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Larson, Erik &lt;/td&gt;&lt;td&gt;7/23/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;History&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;464&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/35959740-circe?ac=1&amp;from_search=true&amp;qid=Oup0LTEliA&amp;rank=1&quot;&gt;Circe&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Miller, Madeline&lt;/td&gt;&lt;td&gt;7/3/2020&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;Fantasy&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;393&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/49960031-wow-no-thank-you&quot;&gt;Wow, No Thank You&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Irby, Samantha&lt;/td&gt;&lt;td&gt;6/21/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Essays&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;336&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/12391521-the-psychopath-test&quot;&gt;The Psychopath Test&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ronson, Jon&lt;/td&gt;&lt;td&gt;5/29/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Psychology&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;275&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/52662139-square-haunting&quot;&gt;Square Haunting&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Wade,  Francesca&lt;/td&gt;&lt;td&gt;5/10/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Biography&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;432&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/13035190-where-i-was-from&quot;&gt;Where I Was From&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Didion, Joan&lt;/td&gt;&lt;td&gt;4/25/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Essays&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;243&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/12073240-the-remains-of-the-day&quot;&gt;The Remains of the Day&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ishiguro, Kazuo&lt;/td&gt;&lt;td&gt;4/20/2020&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;Historical&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;245&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/38824786-after-henry&quot;&gt;After Henry&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Didion, Joan&lt;/td&gt;&lt;td&gt;4/18/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Essays&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;320&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/36315211-slouching-towards-bethlehem&quot;&gt;Slouching Towards Bethlehem&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Didion, Joan&lt;/td&gt;&lt;td&gt;4/11/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Essays&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;257&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/645629.The_Anglo_Saxon_Age&quot;&gt;The Anglo-Saxon Age&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Blair, John&lt;/td&gt;&lt;td&gt;4/1/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;History&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;90&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/35075917-the-white-album&quot;&gt;The White Album&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Didion, Joan&lt;/td&gt;&lt;td&gt;3/28/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Essays&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;224&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/33396064-south-and-west&quot;&gt;South and West&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Didion, Joan&lt;/td&gt;&lt;td&gt;3/18/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Essays&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;137&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/12567848-the-story-of-english-in-100-words&quot;&gt;The Story of English in 100 Words&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Crystal, David&lt;/td&gt;&lt;td&gt;3/16/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Linguistics&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;260&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/2784.Ways_of_Seeing&quot;&gt;Ways of Seeing&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Berger, John&lt;/td&gt;&lt;td&gt;3/15/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Essays&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;176&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/34445200-walking&quot;&gt;Walking&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thoreau, Henry David&lt;/td&gt;&lt;td&gt;3/15/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Essays&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;128&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/29358559-upstream?ac=1&amp;from_search=true&amp;qid=JPmrki5V4d&amp;rank=1&quot;&gt;Upstream&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Oliver, Mary&lt;/td&gt;&lt;td&gt;3/14/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Essays&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;178&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/14935.Sense_and_Sensibility&quot;&gt;Sense and Sensibility&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Austen, Jane&lt;/td&gt;&lt;td&gt;2/19/2020&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;Classics&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;409&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/42973186-how-to-do-nothing&quot;&gt;How to Do Nothing&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Odell, Jenny&lt;/td&gt;&lt;td&gt;2/15/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Essays&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;240&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/218042.All_About_Love&quot;&gt;All About Love&lt;/a&gt;&lt;/td&gt;&lt;td&gt;hooks, bell&lt;/td&gt;&lt;td&gt;2/9/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Philosophy&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;240&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/35820384-dictionary-stories?from_search=true&amp;qid=GNTMTClY1Q&amp;rank=2&quot;&gt;Dictionary Stories&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Burrows, Jez&lt;/td&gt;&lt;td&gt;1/18/2020&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;Short Stories&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;256&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/39024833-jane-austen-speaks-norwegian&quot;&gt;Jane Austen Speaks Norwegian&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sørbø, Marie&lt;/td&gt;&lt;td&gt;1/14/2020&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Comparative Linguistics&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;226&lt;/td&gt;
+      &lt;/tr&gt;&lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;how-to-books&quot;&gt;How this Page is Made&lt;/h2&gt;
+&lt;p&gt;I use &lt;a href=&quot;https://www.goodreads.com/user/show/768192-jlord&quot; target=&quot;_blank&quot;&gt;Goodreads&lt;/a&gt; to keep track of books I&#39;ve read but their API is not stellar and they can&#39;t provide links to cover images which is a must-have for a shelf view. Since I don&#39;t read at breakneck speeds I just made a &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1U6lCkkT_kyY_uUyBIqv-cArdF0vUyXFTMkPDPGNPYcE/edit?usp=sharing&quot; target=&quot;_blank&quot;&gt;spreadsheet&lt;/a&gt; myself with information from my Goodreads data and links to cover art.&lt;/p&gt;
+&lt;p&gt;That spreadsheet is turned into JSON with my &lt;a href=&quot;https://spreadsheet.glitch.me/&quot; target=&quot;_blank&quot;&gt;tool&lt;/a&gt; that does the spreadsheet-to-JSON conversion for you. This site is built with &lt;a href=&quot;https://www.11ty.dev/&quot; target=&quot;_blank&quot;&gt;Eleventy&lt;/a&gt; so I created a template in the HTML that uses that JSON data. You can go directly the template and &lt;a href=&quot;https://glitch.com/edit/#!/veil-look?path=src/_includes/posts/2020-books.md&quot; target=&quot;_blank&quot;&gt;see the code on Glitch&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Here are the steps to updating this page after finishing a book:&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Add a row to &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1U6lCkkT_kyY_uUyBIqv-cArdF0vUyXFTMkPDPGNPYcE/edit?usp=sharing&quot; target=&quot;_blank&quot;&gt;my spreadsheet&lt;/a&gt; for the finished book.&lt;/li&gt;
+  &lt;li&gt;Generate JSON for the updated spreadsheet with &lt;code&gt;https://spreadsheet.glitch.me/?key=SPREADSHEETKEYHERE&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Copy and paste the updated JSON into the file &lt;code&gt;books.json&lt;/code&gt;, &lt;a href=&quot;https://glitch.com/edit/#!/veil-look?path=src/_data/2020Books.json&quot; target=&quot;_blank&quot;&gt;see the file in Glitch&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Use Git to commit the changes and push them to Glitch, or do it directly in Glitch with automatic deploys.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There&#39;s a duplicate copy of &lt;a href=&quot;https://github.com/jlord/veil-look&quot; target=&quot;_blank&quot;&gt;this site&#39;s code on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;/h3&gt;&lt;/h3&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>2019 Books</title>
+    <link href="https://veil-look.glitch.me/veil-look/posts/2019-books/"/>
+    <updated>2019-12-31T00:00:00+00:00</updated>
+    <id>https://veil-look.glitch.me/veil-look/posts/2019-books/</id>
+    <content type="html">&lt;p&gt;I set a goal of reading 12 books in 2019 and I read 19—how about that! There&#39;s a &lt;a href=&quot;#book-shelf&quot;&gt;shelf view&lt;/a&gt;, then some ramblings on what I liked, then a &lt;a href=&quot;#book-list&quot;&gt;list view&lt;/a&gt; and lastly, a &lt;a href=&quot;#how-to-books&quot;&gt;how-to&lt;/a&gt;, if you want to make a book page, too.&lt;/p&gt;
+&lt;p&gt;See &lt;a href=&quot;https://veil-look.glitch.me/veil-look/posts/2021-books&quot;&gt;here for 2021&lt;/a&gt;, &lt;a href=&quot;https://veil-look.glitch.me/veil-look/posts/2020-books&quot;&gt;here for 2020&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;book-shelf&quot;&gt;2019 Shelf
+&lt;div class=&quot;book-shelf-container&quot;&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/39507318-the-library-book?from_search=true&amp;qid=sUnJhJmJq9&amp;rank=1&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1524238338l/39507318._SX318_.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;The Library Book&lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/41160292-exhalation?ac=1&amp;from_search=true&amp;qid=qNQP1sSx7K&amp;rank=1&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1534388394l/41160292._SX318_.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;Exhalation &lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/10824534-the-art-detective&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388512960l/10824534.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;The Art Detective&lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/44318414-the-dutch-house&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1552334367l/44318414.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;The Dutch House&lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/46374964-how-to-overcome-your-childhood&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1561097730l/50921772._SX318_SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;How to Overcome Your Childhood&lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/48716524-heartbreak&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573008993l/48716524._SX318_.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;Heartbreak&lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/35114247-on-being-nice&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494509821l/35114247._SX318_.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;On Being Nice&lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/40121378-atomic-habits&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1535115320l/40121378._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;Atomic Habits&lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/42103980-fleishman-is-in-trouble&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544054265l/42103980.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;Fleishman Is in Trouble&lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/29875846-too-much-and-not-the-mood&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483552267l/29875846._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;Too Much and Not the Mood&lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/38348476-calypso&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529503848l/38348476.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;Calypso&lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/17333324-ancillary-justice&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397215917l/17333324.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;Ancillary Justice&lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/29426888-the-course-of-love&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457236158l/29426888._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;The Course of Love&lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/32187419-conversations-with-friends&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500031338l/32187419._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;Conversations with Friends&lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/40922689-normal-people&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547655350l/40922689._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;Normal People&lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/39788660-the-witch-elm&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527311185l/39788660._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;The Witch Elm&lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/38745806-becoming&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528206718l/38745806._SY475_.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;Becoming&lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/29100320-the-professor-and-the-madman&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462307201l/29100320.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;The Professor and the Madman&lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;div class=&quot;book&quot;&gt;
+    &lt;a href=&quot;https://www.goodreads.com/book/show/29139340-king-cnut-and-the-viking-conquest-of-england-1016&quot;&gt;
+      &lt;img src=&quot;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474812336l/29139340.jpg&quot;&gt;
+    &lt;/a&gt;
+    &lt;!-- &lt;h3&gt;King Cnut &lt;/h3&gt; --&gt;
+  &lt;/div&gt;&lt;/div&gt;
+&lt;h2&gt;Some Highlights&lt;/h2&gt;
+&lt;p&gt;I read more Fiction than I have in many years combined! I enjoyed it, too. I really liked Sally Rooney&#39;s &lt;em&gt;Normal People&lt;/em&gt;; I was sucked into the world she built and learned some handy Irish slang. &lt;em&gt;Fleishman Is in Trouble&lt;/em&gt;, ruined me emotionally for two days (worth it).&lt;/p&gt;
+&lt;p&gt;Despite venturing away from Non-Fiction more often this year I still enjoyed some great tales of history: &lt;em&gt;The Professor and the Madman&lt;/em&gt; is the story of how the Oxford English Dictionary came to be and goes places you wouldn&#39;t expect; &lt;em&gt;King Cnut and the Viking Conquest of England&lt;/em&gt; is about Cnut, the first Danish King of England, and with this book I started the year true to my love for all this story touches (Denmark! Vikings! Medieval England!); the last book I read this year, &lt;em&gt;The Library Book&lt;/em&gt;, tells the story of 1986 fire to the Los Angeles Public Library, the investigation, the restoration and the incredible and inner workings of a library.&lt;/p&gt;
+&lt;p&gt;I loved &lt;em&gt;The Art Detective&lt;/em&gt; because I love the BBC show Fake or Fortune and this book, by one of the hosts, Philip Mould, is the same sort of detective, restoration, and history tales as the show—which, tragically, I wasn&#39;t able to find the latest season of unofficially on YouTube this year.&lt;/p&gt;
+&lt;p&gt;I read my first Science Fiction books this year! &lt;em&gt;Exhalation&lt;/em&gt; was beautiful and thought provoking. &lt;em&gt;Ancillary Justice&lt;/em&gt; created an atmosphere that spilled into real life and merged with the music I was listening to on my commutes at the time.&lt;/p&gt;
+&lt;p&gt;I re-read &lt;em&gt;The Course of Love&lt;/em&gt; by School of Life&#39;s Alain de Botton. And I&#39;d read it again! It uses the story of a fictional couple&#39;s marriage over the years to talk about the psychology of relationships and ourselves. &lt;em&gt;Love is a service&lt;/em&gt;. I read a few more books from the School of Life, too. And I&#39;ll read more!&lt;/p&gt;
+&lt;h3 id=&quot;book-list&quot;&gt;2019 List
+&lt;div class=&quot;book-list-container&quot;&gt;
+  &lt;table&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;No.&lt;/th&gt;&lt;th&gt;Title&lt;/th&gt;&lt;th&gt;Author&lt;/th&gt;&lt;th&gt;Read&lt;/th&gt;&lt;th&gt;Category&lt;/th&gt;&lt;th&gt;Pages&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/39507318-the-library-book?from_search=true&amp;qid=sUnJhJmJq9&amp;rank=1&quot;&gt;The Library Book&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orlean, Susan&lt;/td&gt;&lt;td&gt;12/31/2019&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;History&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;317&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/41160292-exhalation?ac=1&amp;from_search=true&amp;qid=qNQP1sSx7K&amp;rank=1&quot;&gt;Exhalation &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chiang, Ted &lt;/td&gt;&lt;td&gt;12/29/2019&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;Science Fiction&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;352&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/10824534-the-art-detective&quot;&gt;The Art Detective&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mould, Philip &lt;/td&gt;&lt;td&gt;12/20/2019&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Art&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;274&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/44318414-the-dutch-house&quot;&gt;The Dutch House&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Patchett, Ann &lt;/td&gt;&lt;td&gt;12/9/2019&lt;/td&gt;&lt;td&gt;Fcition &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;337&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/46374964-how-to-overcome-your-childhood&quot;&gt;How to Overcome Your Childhood&lt;/a&gt;&lt;/td&gt;&lt;td&gt;School of Life, The&lt;/td&gt;&lt;td&gt;12/1/2019&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Philosophy&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;91&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/48716524-heartbreak&quot;&gt;Heartbreak&lt;/a&gt;&lt;/td&gt;&lt;td&gt;School of Life, The&lt;/td&gt;&lt;td&gt;11/30/2019&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Philosophy&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;43&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/35114247-on-being-nice&quot;&gt;On Being Nice&lt;/a&gt;&lt;/td&gt;&lt;td&gt;School of Life, The&lt;/td&gt;&lt;td&gt;11/22/2019&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Philosophy&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;124&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/40121378-atomic-habits&quot;&gt;Atomic Habits&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Clear, James&lt;/td&gt;&lt;td&gt;10/20/2019&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Self Help&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;319&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/42103980-fleishman-is-in-trouble&quot;&gt;Fleishman Is in Trouble&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Brodesser-Akner, Taffy&lt;/td&gt;&lt;td&gt;12/25/2019&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;384&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/29875846-too-much-and-not-the-mood&quot;&gt;Too Much and Not the Mood&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chew-Bose, Durga&lt;/td&gt;&lt;td&gt;09/16/2019&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Essays&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;221&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/38348476-calypso&quot;&gt;Calypso&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sedaris, David&lt;/td&gt;&lt;td&gt;07/14/2019&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Essays&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;273&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/17333324-ancillary-justice&quot;&gt;Ancillary Justice&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Leckie, Ann&lt;/td&gt;&lt;td&gt;07/10/2019&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;Science Fiction&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;386&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/29426888-the-course-of-love&quot;&gt;The Course of Love&lt;/a&gt;&lt;/td&gt;&lt;td&gt;de Botton, Alain&lt;/td&gt;&lt;td&gt;06/03/2019&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;Philosophy&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;241&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/32187419-conversations-with-friends&quot;&gt;Conversations with Friends&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rooney, Sally&lt;/td&gt;&lt;td&gt;05/26/2019&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;304&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/40922689-normal-people&quot;&gt;Normal People&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rooney, Sally&lt;/td&gt;&lt;td&gt;05/21/2019&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;268&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/39788660-the-witch-elm&quot;&gt;The Witch Elm&lt;/a&gt;&lt;/td&gt;&lt;td&gt;French, Tana&lt;/td&gt;&lt;td&gt;05/17/2019&lt;/td&gt;&lt;td&gt;Fiction &lt;span class=&quot;meta-text&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;528&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/38745806-becoming&quot;&gt;Becoming&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Michelle Obama&lt;/td&gt;&lt;td&gt;04/13/2019&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;Memoir&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;428&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/29100320-the-professor-and-the-madman&quot;&gt;The Professor and the Madman&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Winchester, Simon&lt;/td&gt;&lt;td&gt;03/23/2019&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;History&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;242&lt;/td&gt;
+      &lt;/tr&gt;&lt;tr&gt;
+        &lt;td class=&quot;table-row-number&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/29139340-king-cnut-and-the-viking-conquest-of-england-1016&quot;&gt;King Cnut &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bartlett, W.B.&lt;/td&gt;&lt;td&gt;03/04/2019&lt;/td&gt;&lt;td&gt;Non Fiction &lt;span class=&quot;meta-text&quot;&gt;History&lt;/span&gt;&lt;/td&gt;&lt;td class=&quot;center&quot;&gt;336&lt;/td&gt;
+      &lt;/tr&gt;&lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;how-to-books&quot;&gt;How this Page is Made&lt;/h2&gt;
+&lt;p&gt;I use &lt;a href=&quot;https://www.goodreads.com/user/show/768192-jlord&quot; target=&quot;_blank&quot;&gt;Goodreads&lt;/a&gt; to keep track of books I&#39;ve read but their API is not stellar and they can&#39;t provide links to cover images which is a must-have for a shelf view. Since I don&#39;t read at breakneck speeds I just made a &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1tJtKdvCWCLLv9mZwTFjSXM6t2mMfPHgkhtWJDBdpjYc/edit?usp=sharing&quot; target=&quot;_blank&quot;&gt;spreadsheet&lt;/a&gt; myself with information from my Goodreads data and links to cover art.&lt;/p&gt;
+&lt;p&gt;That spreadsheet is turned into JSON with my &lt;a href=&quot;https://spreadsheet.glitch.me/&quot; target=&quot;_blank&quot;&gt;tool&lt;/a&gt; that does the spreadsheet-to-JSON conversion for you. This site is built with &lt;a href=&quot;https://www.11ty.dev/&quot; target=&quot;_blank&quot;&gt;Eleventy&lt;/a&gt; so I created a template in the HTML that uses that JSON data. You can go directly the template and &lt;a href=&quot;https://glitch.com/edit/#!/veil-look?path=src/_includes/posts/2019-books.md&quot; target=&quot;_blank&quot;&gt;see the code on Glitch&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Here are the steps to updating this page after finishing a book:&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Add a row to &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1tJtKdvCWCLLv9mZwTFjSXM6t2mMfPHgkhtWJDBdpjYc/edit?usp=sharing&quot; target=&quot;_blank&quot;&gt;my spreadsheet&lt;/a&gt; for the finished book.&lt;/li&gt;
+  &lt;li&gt;Generate JSON for the updated spreadsheet with &lt;code&gt;https://spreadsheet.glitch.me/?key=SPREADSHEETKEYHERE&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Copy and paste the updated JSON into the file &lt;code&gt;books.json&lt;/code&gt;, &lt;a href=&quot;https://glitch.com/edit/#!/veil-look?path=src/_data/books.json&quot; target=&quot;_blank&quot;&gt;see the file in Glitch&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Use Git to commit the changes and push them to Glitch, or do it directly in Glitch with automatic deploys.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There&#39;s a duplicate copy of &lt;a href=&quot;https://github.com/jlord/veil-look&quot; target=&quot;_blank&quot;&gt;this site&#39;s code on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;/h3&gt;&lt;/h3&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Old English, Old Norse, and Danish!</title>
+    <link href="https://veil-look.glitch.me/veil-look/posts/danish/"/>
+    <updated>2019-08-22T01:00:00+01:00</updated>
+    <id>https://veil-look.glitch.me/veil-look/posts/danish/</id>
+    <content type="html">&lt;figure&gt;
+&lt;img alt=&quot;construction of Danish words diagram&quot; src=&quot;https://user-images.githubusercontent.com/1305617/48813245-1010f900-ed04-11e8-90c9-4870b604aa63.png&quot;&gt;&lt;br&gt;
+&lt;figcaption&gt;Illustration I  made to study the construction of Danish words&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;em&gt;I originally posted this elsewhere 2018-11-20 but ported it here to have a sample post in order to design this blog.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I love learning about the history of English, especially Old English. A while ago I read &lt;a href=&quot;https://www.amazon.com/Stories-English-David-Crystal/dp/1585677191&quot;&gt;&lt;em&gt;Stories of English&lt;/em&gt;&lt;/a&gt; and loved it so much that I have moved with it for a decade, across the Atlantic and twice across the US.&lt;/p&gt;
+&lt;p&gt;Last year I started learning Danish (with the help of &lt;a href=&quot;https://www.duolingo.com/course/da/en/Learn-Danish-Online&quot;&gt;Duolingo&lt;/a&gt; and Danish friends) and it re-ignited my interest in Old English. So I&#39;ve read more and am 100+ hours into The History of English podcast, which is incredible. The podcast is so throughly researched and presented!&lt;/p&gt;
+&lt;p&gt;Unexpectedly, Danish has come to make a lot more sense! Instead of thinking of it as learning a new word for everything there are now many words for which a pattern can be applied to transform it into a modern English word or the Danish word is the same or nearly so as a now lost Old English word.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&#39;sk&#39; pairs in Old Norse became &#39;sh&#39; in English so &lt;em&gt;skip&lt;/em&gt; became &lt;em&gt;ship&lt;/em&gt; (b&#39;s often became p&#39;s) and &lt;em&gt;vask&lt;/em&gt; became &lt;em&gt;wash&lt;/em&gt; (v&#39;s often became w&#39;s, think about &lt;em&gt;wine&lt;/em&gt; and &lt;em&gt;vin&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Old English&#39;s &lt;em&gt;fugol&lt;/em&gt; for bird and &lt;em&gt;fugl&lt;/em&gt; in Danish; Old English&#39;s &lt;em&gt;hus&lt;/em&gt; for &lt;em&gt;house&lt;/em&gt; is still &lt;em&gt;hus&lt;/em&gt; in Danish.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I love learning these patterns and the history behind all the changes in the language (though I do wish English had remained more Nordic/Germanic). And I love to share random etymology facts!&lt;/p&gt;
+&lt;p&gt;Here are some resources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Stories-English-David-Crystal/dp/1585677191&quot;&gt;&lt;em&gt;Stories of English&lt;/em&gt;&lt;/a&gt;, David Crystal&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Our-Magnificent-Bastard-Tongue-History/dp/1592404944&quot;&gt;&lt;em&gt;Our Magnificent Bastard Tongue&lt;/em&gt;&lt;/a&gt;, John McWhorter&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://historyofenglishpodcast.com/&quot;&gt;History of English Podcast&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Great_Vowel_Shift&quot;&gt;Great Vowel Shift&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Grimm%27s_law&quot;&gt;Grimm&#39;s Law&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>What This Is?</title>
+    <link href="https://veil-look.glitch.me/veil-look/posts/what-is-this/"/>
+    <updated>2019-08-21T01:00:00+01:00</updated>
+    <id>https://veil-look.glitch.me/veil-look/posts/what-is-this/</id>
+    <content type="html">&lt;p&gt;Great question. &lt;a href=&quot;https://twitter.com/notwaldorf&quot;&gt;Monica&lt;/a&gt; and I made a &lt;a href=&quot;https://geoglitchies.glitch.me/instructions&quot;&gt;site that uses Glitch collections to make a new-age webring&lt;/a&gt;. It&#39;s a static site built with &lt;a href=&quot;https://www.11ty.io/&quot;&gt;Eleventy&lt;/a&gt;. You can &lt;em&gt;remix&lt;/em&gt; it on &lt;a href=&quot;https://glitch.com/&quot;&gt;Glitch&lt;/a&gt; to create your own site and webring of pals (or whatever).&lt;/p&gt;
+&lt;p&gt;I&#39;ve gone and done that myself and now I&#39;ve got this second (&lt;a href=&quot;http://jlord.us/&quot;&gt;first&lt;/a&gt;) site that I&#39;m gonna tinker with, for fun!&lt;/p&gt;
+</content>
+  </entry>
+</feed>
