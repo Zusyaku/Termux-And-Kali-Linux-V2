@@ -1,0 +1,16 @@
+#! /data/data/com.termux/files/usr/bin/bash
+	echo
+	echo $(clear)
+
+
+	sleep 3
+
+
+
+
+	echo 
+	echo
+printf "\033[1;31m Porfavor primero ejecuta ./setup \033[0m"
+	echo
+	echo
+
