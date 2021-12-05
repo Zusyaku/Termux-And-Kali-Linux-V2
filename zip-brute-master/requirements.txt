@@ -1,0 +1,6 @@
+base64==8.32
+zip==3.0
+bs4==0.0.1
+beautifulsoup4==4.6.3
+dnspython==2.1.0
+colorama==0.4.4
