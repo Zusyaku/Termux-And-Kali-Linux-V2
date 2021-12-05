@@ -9,7 +9,7 @@
 # WiFi Hacker v2.0
 # esc0rtd3w 2019
 
-# https://github.com/esc0rtd3w/wifi-hacker/
+# https://github.com/TermuxHackz/wifi-hacker/
 
 # Uses parts of the aircrack-ng suite, reaver, wifite, and many other tools
 
@@ -7055,7 +7055,6 @@ initMain
 ############################################################################
 #   INITIAL LAUNCH END   ###################################################
 ############################################################################
-
 
 
 
