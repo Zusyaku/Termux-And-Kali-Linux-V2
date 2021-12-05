@@ -1,0 +1,204 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif; 
+  margin: 0 auto; 
+  color: #fff; 
+  background: #1aa6b1; 
+  border: 30px solid #fff;
+}
+
+pre {
+  color: #fff; 
+  text-shadow: 0px 1px 1px rgba(0,0,0,0.4); 
+  padding-bottom: 20px; 
+  font-size: 11px;
+}
+
+code {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Animation done by https://github.com/daneden */
+/* https://github.com/daneden/animate.css */
+
+#user-name {
+ width: 100%;
+}
+
+@-webkit-keyframes swing {
+  20% {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes swing {
+  20% {
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+.swing {
+  -webkit-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: swing;
+  animation-name: swing;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+h1, h2, h3, h5, h6 {font-weight: 300;}
+h4 {font-weight: 700;}
+
+em {font-family: Georgia;}
+
+a, a:visited, a:active {
+  color: #fff; 
+  text-decoration: none; 
+  transition: color 0.2s ease;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #eee4ee; 
+  padding-bottom: 1px; 
+  border-bottom: 1px solid #eee4ee;
+}
+
+h1 {
+  font-size: 54px; 
+}
+h3 {
+  text-align: center;
+}
+
+p, .textcontainer {
+  font-size: 14px; 
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 800px; 
+  margin: 0 auto;
+  overflow: auto; 
+  display: block;
+}
+
+.large-container {
+  overflow: auto;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#welcome-name {
+  text-align: center; 
+  
+}
+
+#welcome-name h4 {margin: 6px;}
+
+#compatriots {
+  padding: 22px; 
+  border-bottom: 1px dashed #fff;
+  border-top: 1px dashed #fff;
+}
+
+ul.nav {
+  list-style: none; padding: 0px; 
+  margin: 0px;
+}
+
+.nav li {
+  display: inline; 
+  padding-right: 8px; 
+  font-size: 13px; 
+  font-weight: 600;
+}
+
+.compatriots-list {
+  list-style: none; 
+  padding: 0px; 
+  font-size: 12px;
+}
+.compatriots-list li {padding: 2px 0px;}
+
+.userdate {font-family: "Andale Mono"}
+.userdetail {font-weight: bold;}
+
+.textcontainer { 
+  float: left;
+  display: inline-block;
+}
+
+.halvsies {
+  max-width: 48%;
+  float: left;
+}
+
+.halvsies:nth-child(2n+1) {
+  padding-right: 28px;
+}
+
+ul.what-next-list {
+  padding-left: 17px;
+}
+
+.what-next-list li {
+  padding-bottom: 6px;
+  padding-left: 0px;
+  
+}

@@ -1,0 +1,25 @@
+{
+  "name": "jailbreakbot",
+  "version": "1.0.0",
+  "description": "a temp discord bot for r/jailbreak",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olvrb/JailbreakBot.git"
+  },
+  "author": "oliver boudet",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/olvrb/JailbreakBot/issues"
+  },
+  "homepage": "https://github.com/olvrb/JailbreakBot#readme",
+  "dependencies": {
+    "discord.js": "github:hydrabolt/discord.js",
+    "discord.js-commando": "github:gawdl3y/discord.js-commando",
+    "quick.db": "^3.0.3",
+    "sqlite": "^2.9.1"
+  }
+}
