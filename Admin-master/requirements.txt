@@ -1,0 +1,2 @@
+anyjson==0.3
+urllib3

@@ -1,0 +1,4 @@
+discord
+asyncio
+random2
+flask
