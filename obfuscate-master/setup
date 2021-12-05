@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+# ofuscador de php, python2, bash, :3 
+# Creditos @CesarHackGray
+
+
+
+chmod 700 obfuscate
+cp obfuscate $PREFIX/bin
+sleep 3
+
+echo "Finished"
+echo "Usage: obfuscate "
+echo
