@@ -1,0 +1,7 @@
+mv -f /data/data/com.termux/files/usr/etc/.zshrc ~
+mv -f /data/data/com.termux/files/usr/etc/font.ttf ~/.termux
+rm -rf ~/.oh-my-zsh/themes/powerlevel10k
+rm -rf ~/.oh-my-zsh/plugins/zsh-autosuggestions
+rm -rf ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
+echo "Theme and plugins removed. Default theme is in use."
+rm -rf /data/data/com.termux/files/usr/bin/removeall
