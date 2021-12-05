@@ -1,0 +1,47 @@
+#!/bin/bash
+Cesar="gem"
+Gray="pkg"
+
+sleep 0.4
+echo "Instalando zsh..."
+${Gray} install -y zsh -y
+echo
+echo
+echo "Instalando gawk..."
+${Gray} install gawk -y 
+echo
+echo
+echo "Instalando cowsar..."
+${Gray} install cowsay -y
+echo
+echo
+echo "Instalando lolcat..."
+${Gray} install ruby -y
+${Cesar} install lolcat
+echo
+echo
+echo "Instalando ncurses-utils..."
+${Gray} install ncurses-utils -y
+echo
+echo
+echo "Instalando coreutils..."
+${Gray} install coreutils -y 
+echo
+echo
+echo "Instalando procps..."
+${Gray} install procps -y 
+echo
+echo
+sleep 0.6
+echo $(clear)
+cowsay Fish-Bash|lolcat
+echo
+echo
+echo " Finished!"
+echo " Created by @CesarHackGray"
+echo " Contactame https://t.me/CesarGray"
+chmod +x ~/fish-bash/fish
+echo " Usage: ./fish [option]"
+echo
+sleep 0.5
+exit

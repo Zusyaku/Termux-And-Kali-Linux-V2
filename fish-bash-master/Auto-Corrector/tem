@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+
+
+# echo "$Nombre$ " >> $PREFIX/etc/bash.bashrc
+# echo "$Nombre$ $(date command)" >> $PREFIX/etc/bash.bashrc
