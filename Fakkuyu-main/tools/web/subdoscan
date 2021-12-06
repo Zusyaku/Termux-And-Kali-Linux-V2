@@ -1,0 +1,93 @@
+<?php
+
+if (!file_exists("results")){
+    mkdir("results");
+}
+if (!file_exists("results/subdomains")){
+    mkdir("results/subdomains");
+}
+
+function banner(){
+	@system("clear");
+	include 'config/color.php';
+	print "\n$red    フ".$yellow."ァ".$green."ッ".$cyan."ク".$okegreen."ユ".$lightgreen."ー".$white."\n\n";
+}
+
+function menu(){
+    include 'config/color.php';
+    print "\n";
+    print "$cyan  01$red :$white Single Target\n";
+    print "$cyan  02$red :$white Multi Target\n";
+    print "\n";
+    print "$white Select one : ";
+    $menu = trim(fgets(STDIN));
+    if ($menu == '1' OR $menu == '01'){
+        single();
+    } elseif ($menu == '2' OR $menu == '02'){
+        multi();
+    }
+}
+
+function single(){
+    include 'config/color.php';
+    banner();
+    print "\n$white target : ";
+    $target = trim(fgets(STDIN));
+    banner();
+    print "$yellow //$white Searching for Subdomains\n\n";
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_URL,'https://sonar.omnisint.io/subdomains/'.$target);
+    $result=curl_exec($ch);
+    $json = json_decode($result, true);
+    $file = "results/subdomains/$target.txt";
+    if( is_null($json) ){
+        print "\n$red  [x]$white Failed\n";
+    } else {
+        foreach ($json as $row){
+            $handle = fopen($file, "a+");
+            fwrite($handle, "$row\n");
+            print "$cyan  [+]$white $row\n";
+        }
+        $line = count(file($file));
+        print "\n$yellow //$white Grabbed $line Subdomains from $target\n";
+    }
+}
+
+function multi(){
+    include 'config/color.php';
+    banner();
+    print "\n$white list : ";
+    $list = trim(fgets(STDIN));
+    $buka = fopen("$list","r");
+    $ukuran = filesize("$list");
+    $baca = fread($buka,$ukuran);
+    $lists = explode("\n",$baca);
+    banner();
+    print "$yellow //$white Searching for Subdomains from list\n\n";
+    foreach($lists as $target){
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_URL,'https://sonar.omnisint.io/subdomains/'.$target);
+        $result=curl_exec($ch);
+        $json = json_decode($result, true);
+        $file = "results/subdomains/$target.txt";
+        if( is_null($json) ){
+            print "\n$red  [x]$white $target";
+        } else {
+            foreach ($json as $row){
+                $handle = fopen($file, "a+");
+                fwrite($handle, "$row\n");
+            }
+            $line = count(file($file));
+            print "$cyan  [+]$white $target$okegreen ->$yellow $line$white Subdomains\n";
+        }
+    }
+}
+
+banner();
+menu();
+
+?>

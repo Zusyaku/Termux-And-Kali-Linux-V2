@@ -1,0 +1,100 @@
+<?php
+
+
+error_reporting(0);
+include 'config/color.php';
+
+function banner(){
+	@system("clear");
+	include 'config/color.php';
+	print "\n$red    フ".$yellow."ァ".$green."ッ".$cyan."ク".$okegreen."ユ".$lightgreen."ー".$white."\n\n";
+}
+
+banner();
+print "\n target : ";
+$target = trim(fgets(STDIN));
+print " include subdomains (Y/n)? ";
+$subs = trim(fgets(STDIN));
+print " list : ";
+$list = trim(fgets(STDIN));
+$buka = fopen("$list","r");
+$ukuran = filesize("$list");
+$baca = fread($buka,$ukuran);
+$lists = explode("\n",$baca);
+
+banner();
+if ($subs == 'Y' OR $subs == 'y'){
+	subdoin($target);
+	$sublist = "results/subdomains/$target.txt";
+	$buka = fopen("$sublist","r");
+	$ukuran = filesize("$sublist");
+	$baca = fread($buka,$ukuran);
+	$sublists = explode("\n",$baca);
+	foreach ($sublists as $sub){
+		foreach ($lists as $dir){
+			request($sub, $dir);
+		}
+	}
+} else {
+	foreach ($lists as $dir){
+		request($target, $dir);
+	}
+}
+
+function subdoin($target){
+	include 'config/color.php';
+	print "$yellow //$white Searching for Subdomains\n";
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_URL,'https://sonar.omnisint.io/subdomains/'.$target);
+    $result=curl_exec($ch);
+	$json = json_decode($result, true);
+	if (!file_exists("results")){
+		mkdir("results");
+	}
+	if (!file_exists("results/subdomains")){
+		mkdir("results/subdomains");
+	}
+    $file = "results/subdomains/$target.txt";
+    if( is_null($json) ){
+        print "\n  Failed\n";
+    } else {
+        foreach ($json as $row){
+            $handle = fopen($file, "a+");
+            fwrite($handle, "$row\n");
+        }
+        $line = count(file($file));
+        print "$yellow //$white Grabbed $line Subdomains from $target\n";
+    }
+}
+
+function request($target, $dir){
+	include 'config/color.php';
+	$log = "$target/$dir";
+	$ch = curl_init("$log");
+	curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	curl_exec($ch);
+	$httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+	curl_close($ch);
+	if (!file_exists("results")){
+		mkdir("results");
+	}
+	if (!file_exists("results/dirbrute")){
+		mkdir("results/dirbrute");
+	}
+	if($httpcode == 200){
+		$handle = fopen("results/dirbrute/$target.txt", "a+");
+		fwrite($handle, "$log\n");
+		print "\n$okegreen [+]$white $log$okegreen OK";
+	} elseif($httpcode == 403){
+		print "\n$yellow [-]$white $log$yellow FORBIDDEN";
+	} elseif($httpcode == 302){
+		print "\n$yellow [-]$white $log$yellow REDIRECTED";
+	} else {
+		print "\n$red [x]$white $log$red ERROR";
+	}
+}
+
+?>

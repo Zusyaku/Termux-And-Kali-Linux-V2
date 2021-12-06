@@ -1,0 +1,75 @@
+<?php
+
+error_reporting(0);
+include 'config/color.php';
+
+function banner(){
+	@system("clear");
+	include 'config/color.php';
+	print "\n$red    フ".$yellow."ァ".$green."ッ".$cyan."ク".$okegreen."ユ".$lightgreen."ー".$white."\n\n";
+}
+
+banner();
+print "\n target : ";
+$target = trim(fgets(STDIN));
+print " panel type (asp,aspx,brf,cfm,cgi,js,php) : ";
+$type = trim(fgets(STDIN));
+
+if($type == 'asp'){
+    $list = 'list/adlogin/asp.txt';
+} elseif ($type == 'aspx'){
+    $list = 'list/adlogin/aspx.txt';
+} elseif ($type == 'brf'){
+    $list = 'list/adlogin/brf.txt';
+} elseif ($type == 'cfm'){
+    $list = 'list/adlogin/cfm.txt';
+} elseif ($type == 'cgi'){
+    $list = 'list/adlogin/cgi.txt';
+} elseif ($type == 'js'){
+    $list = 'list/adlogin/js.txt';
+} elseif ($type == 'php'){
+    $list = 'list/adlogin/php.txt';
+} else {
+    print " list : ";
+    $list = trim(fgets(STDIN));
+}
+
+$buka = fopen("$list","r");
+$ukuran = filesize("$list");
+$baca = fread($buka,$ukuran);
+$lists = explode("\n",$baca);
+
+banner();
+foreach ($lists as $dir){
+	request($target, $dir);
+}
+
+function request($target, $dir){
+	include 'config/color.php';
+	$log = "$target/$dir";
+	$ch = curl_init("$log");
+	curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	curl_exec($ch);
+	$httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+	curl_close($ch);
+	if (!file_exists("results")){
+		mkdir("results");
+	}
+	if (!file_exists("results/adfinder")){
+		mkdir("results/adfinder");
+	}
+	if($httpcode == 200){
+		$handle = fopen("results/adfinder/$target.txt", "a+");
+		fwrite($handle, "$log\n");
+		print "\n$okegreen [+]$white $log$okegreen OK";
+	} elseif($httpcode == 403){
+		print "\n$yellow [-]$white $log$yellow FORBIDDEN";
+	} elseif($httpcode == 302){
+		print "\n$yellow [?]$white $log$yellow REDIRECTED";
+	} else {
+		print "\n$red [x]$white $log$red ERROR";
+	}
+}
+
+?>

